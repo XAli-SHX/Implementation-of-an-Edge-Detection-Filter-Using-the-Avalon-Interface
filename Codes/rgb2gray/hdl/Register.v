@@ -1,5 +1,5 @@
 module Register #(
-    parameter SIZE = 10;
+    parameter SIZE = 10
 ) (
     clk_i,
     rst_i,
