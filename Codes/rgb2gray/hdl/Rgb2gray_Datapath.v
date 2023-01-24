@@ -30,6 +30,7 @@ module Rgb2Gray_Datapath (
     // Divide by 3
     assign GrayColor_o = (SumResultRegister_w >> 2) + 
                          (SumResultRegister_w >> 4) + 
-                         (SumResultRegister_w >> 6);
+                         (SumResultRegister_w >> 6) +
+                         (SumResultRegister_w >> 7) ;
     
 endmodule
