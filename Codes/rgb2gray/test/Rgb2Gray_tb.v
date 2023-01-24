@@ -18,20 +18,19 @@ module Rgb2Gray_tb ();
     always #3 clk_r = ~clk_r;
 
     initial begin
-        rst_r = 1;
+        #10 rst_r = 1;
         #10 rst_r = 0;
-        @posedge clk_r;
+        @(posedge clk_r)
         start_r = 1;
-        @posedge clk_r;
+        @(posedge clk_r)
         start_r = 0;
-        @posedge clk_r;
+        @(posedge clk_r)
         RgbColor_r = 10'd238; // EE
-        @posedge clk_r;
+        @(posedge clk_r)
         RgbColor_r = 10'd238; // EE
-        @posedge clk_r;
+        @(posedge clk_r)
         RgbColor_r = 10'd238; // EE
-        repeat(10) @posedge clk_r;
-        #10 $stop();
+        #100 $stop();
     end
 
 endmodule
