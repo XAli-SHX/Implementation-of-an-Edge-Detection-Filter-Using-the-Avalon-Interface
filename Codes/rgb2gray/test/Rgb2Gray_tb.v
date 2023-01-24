@@ -1,7 +1,7 @@
 module Rgb2Gray_tb ();
     
     reg clk_r = 0, rst_r = 0, start_r = 0;
-    reg [9:0] RgbColor_r = 10'd0;
+    reg [7:0] RgbColor_r = 10'd0;
     wire valid_w;
     wire [7:0] GrayColor_w;
 

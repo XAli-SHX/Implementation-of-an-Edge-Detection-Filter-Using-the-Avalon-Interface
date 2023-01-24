@@ -19,7 +19,7 @@ module Rgb2Gray (
         .rst_i(rst_i),
         .ld_i(ld_w),
         .clear_i(clear_w),
-        .RgbColor_i(RgbColor_i),
+        .RgbColor_i({2'b0, RgbColor_i}),
         .GrayColor_o(GrayColor_o)
     );
 

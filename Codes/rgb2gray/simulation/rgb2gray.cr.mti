@@ -1,29 +1,23 @@
-H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray.v {0 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray.v
+H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Rgb2Gray
-** Error: H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray.v(2): Identifier must be declared with a port mode: clk_i.
-** Error: H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray.v(3): Identifier must be declared with a port mode: rst_i.
-** Error: H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray.v(4): Identifier must be declared with a port mode: start_i.
-** Error: H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray.v(5): Identifier must be declared with a port mode: RgbColor_i.
-** Error: H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray.v(6): Identifier must be declared with a port mode: valid_o.
-** Error: H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray.v(7): Identifier must be declared with a port mode: GrayColor_o.
 
-} {4.0 10.0} {}} H:/University/term7/FPGA/CA/2/Codes/rgb2gray/test/Rgb2Gray_tb.v {0 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/rgb2gray/test/Rgb2Gray_tb.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module Rgb2Gray_tb
-** Error: H:/University/term7/FPGA/CA/2/Codes/rgb2gray/test/Rgb2Gray_tb.v(23): near "posedge": syntax error, unexpected posedge
-** Error: H:/University/term7/FPGA/CA/2/Codes/rgb2gray/test/Rgb2Gray_tb.v(25): near "posedge": syntax error, unexpected posedge
-** Error: H:/University/term7/FPGA/CA/2/Codes/rgb2gray/test/Rgb2Gray_tb.v(27): near "posedge": syntax error, unexpected posedge
-** Error: H:/University/term7/FPGA/CA/2/Codes/rgb2gray/test/Rgb2Gray_tb.v(29): near "posedge": syntax error, unexpected posedge
-** Error: H:/University/term7/FPGA/CA/2/Codes/rgb2gray/test/Rgb2Gray_tb.v(31): near "posedge": syntax error, unexpected posedge
-** Error: H:/University/term7/FPGA/CA/2/Codes/rgb2gray/test/Rgb2Gray_tb.v(33): near "posedge": syntax error, unexpected posedge
+Top level modules:
+	Rgb2Gray
 
-} {4.0 10.0} {}} H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Register.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Register.v
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Register.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Register.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Register
 
 Top level modules:
 	Register
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray_Datapath.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray_Datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Rgb2Gray_Datapath
+
+Top level modules:
+	Rgb2Gray_Datapath
 
 } {} {}} H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray_Controller.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray_Controller.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
