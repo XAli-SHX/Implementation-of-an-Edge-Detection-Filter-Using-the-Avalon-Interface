@@ -7,6 +7,11 @@ module Rgb2Gray (
     GrayColor_o
 );
 
+    input clk_i, rst_i, start_i;
+    input [7:0] RgbColor_i;
+    output valid_o;
+    output [7:0] GrayColor_o;
+
     wire ld_w, clear_w;
 
     Rgb2Gray_Datapath Rgb2Gray_DP (
