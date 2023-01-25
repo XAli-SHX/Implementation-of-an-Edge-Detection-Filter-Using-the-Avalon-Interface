@@ -1,0 +1,105 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\University\term7\CA_LAB\Modelsim
+vRegister
+!i10b 1
+!s100 _gX1^O0PkeloQO?`Cof=T0
+Ik?N`g2YAfSNzAIbi0mi@V3
+Z1 VJgORYWRECNT5LiP4;Hzc11
+Z2 dH:\University\term7\FPGA\CA\2\Codes\rgb2gray\simulation
+w1674568710
+8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v
+FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v
+L0 1
+Z3 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1674571922.547000
+!s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v|
+!s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v|
+!s101 -O0
+Z4 o-work work -O0
+Z5 n@register
+vRgb2Gray
+Z6 Iz9nmalLKGA;R7JO^`PA803
+Z7 VP=648Y7?]2CEEWKhn<AK>1
+R2
+Z8 w1674571816
+Z9 8H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray.v
+Z10 FH:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray.v
+L0 1
+R3
+r1
+31
+Z11 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray.v|
+R4
+Z12 n@rgb2@gray
+Z13 !s100 =HzbbL]RO8QWLO1aMLaPH1
+Z14 !s108 1674571922.271000
+Z15 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRgb2Gray_Controller
+Z16 !s100 7k8bB^e?ND]c@T_m6UN2Y3
+Z17 I4m7MWDPf01k9Y5nH5ZZ:13
+Z18 VSz>ofCPB0FJaJ4GLZWPPe1
+R2
+Z19 w1674567808
+Z20 8H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray_Controller.v
+Z21 FH:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray_Controller.v
+L0 1
+R3
+r1
+31
+R4
+Z22 n@rgb2@gray_@controller
+Z23 !s108 1674571922.366000
+Z24 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray_Controller.v|
+Z25 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray_Controller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRgb2Gray_Datapath
+Z26 I<i?cn5=Zfg@eYb6AA`[z]0
+Z27 V?zC3?bVbF<>ZWH]dhJ5if2
+R2
+Z28 w1674571812
+Z29 8H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray_Datapath.v
+Z30 FH:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray_Datapath.v
+L0 1
+R3
+r1
+31
+R4
+Z31 n@rgb2@gray_@datapath
+!i10b 1
+Z32 !s100 Al9RkjE:befHBXAV2P[cV3
+!s85 0
+Z33 !s108 1674571922.457000
+Z34 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray_Datapath.v|
+Z35 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray/hdl/Rgb2Gray_Datapath.v|
+!s101 -O0
+vRgb2Gray_tb
+Z36 !s100 V@UW@R;j]YCYTHG36Td3S3
+Z37 I1PFn:N4MLd:DIU`AzfF>A0
+Z38 VT8L@OGRn9WLHTOOIB^glP3
+R2
+Z39 w1674571554
+Z40 8H:/University/term7/FPGA/CA/2/Codes/rgb2gray/test/Rgb2Gray_tb.v
+Z41 FH:/University/term7/FPGA/CA/2/Codes/rgb2gray/test/Rgb2Gray_tb.v
+L0 1
+R3
+r1
+31
+Z42 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray/test/Rgb2Gray_tb.v|
+R4
+Z43 n@rgb2@gray_tb
+Z44 !s108 1674571921.869000
+Z45 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray/test/Rgb2Gray_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
