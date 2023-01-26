@@ -20,18 +20,18 @@ module CounterDualPort #(
 
     always @(posedge clk_i or posedge rst_i) begin
         if (rst_i) begin
-            X_o <= 0;
-            Y_o <= 0;
+            X_o <= {X_WIDTH{1'b0}};
+            Y_o <= {Y_WIDTH{1'b0}};
         end else begin
             if (clear_i) begin
-                X_o <= 0;
-                Y_o <= 0;
+                X_o <= {X_WIDTH{1'b0}};
+                Y_o <= {Y_WIDTH{1'b0}};
             end else begin
                 if (inc_i) begin
                     if (Y_o == Y_END) begin
-                        Y_o <= 0;
+                        Y_o <= {Y_WIDTH{1'b0}};
                         if (X_o == X_END) begin
-                            X_o <= 0;
+                            X_o <= {X_WIDTH{1'b0}};
                         end else begin
                             X_o <= X_o + 1;
                         end

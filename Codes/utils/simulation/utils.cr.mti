@@ -1,9 +1,9 @@
-H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v
+H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module CounterDualPort
+-- Compiling module CounterDualPort_tb
 
 Top level modules:
-	CounterDualPort
+	CounterDualPort_tb
 
 } {} {}} H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
