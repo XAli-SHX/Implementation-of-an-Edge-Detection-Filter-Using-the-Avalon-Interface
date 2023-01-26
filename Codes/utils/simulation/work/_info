@@ -4,62 +4,62 @@ K3
 cModel Technology
 Z0 dH:\University\term7\FPGA\CA\2\Codes\edge_detection\simulation
 vCounterDualPort
-Z1 I8mNN6SCZ8DcjRSa[g;Fn=0
-Z2 Vbb[7V2TcRkIR8hIJ<m52S0
-Z3 dH:\University\term7\FPGA\CA\2\Codes\utils\simulation
-Z4 w1674732952
-Z5 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v
-Z6 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v
+Z1 !s100 LV?ONVYbl85a<9ed?L`L72
+Z2 IjJ4OAD0S_LYR?]?;BO1GH3
+Z3 Vbb[7V2TcRkIR8hIJ<m52S0
+Z4 dH:\University\term7\FPGA\CA\2\Codes\utils\simulation
+Z5 w1674733730
+Z6 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v
+Z7 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v
 L0 1
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
-Z9 n@counter@dual@port
+Z9 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v|
+Z10 o-work work -O0
+Z11 n@counter@dual@port
 !i10b 1
-Z10 !s100 h]9=[FHIgeC7z18Z?;;]d1
 !s85 0
-Z11 !s108 1674733491.293000
-Z12 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v|
-Z13 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v|
+Z12 !s108 1674734290.304000
+Z13 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v|
 !s101 -O0
 vCounterDualPort_tb
 !i10b 1
-!s100 P[F]]dl13RzJUPSA03Ea01
-I@An1ij431eBXbZ<Zhoe`Y2
-V<L_o@YTOn8?IHb^K?[>on0
-R3
-w1674733488
-8H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v
-FH:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v
+!s100 8DS1NOFQi02C03;`UaIgm0
+IAA6oCNenB_cjeW^z=FOei0
+Z14 V<L_o@YTOn8?IHb^K?[>on0
+R4
+w1674734280
+Z15 8H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v
+Z16 FH:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v
 L0 1
-R7
+R8
 r1
 !s85 0
 31
-!s108 1674733491.397000
+!s108 1674734290.404000
 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v|
-!s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v|
+Z17 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v|
 !s101 -O0
-R8
-n@counter@dual@port_tb
+R10
+Z18 n@counter@dual@port_tb
 vRegister
-Z14 !s100 _gX1^O0PkeloQO?`Cof=T0
-Z15 Ik?N`g2YAfSNzAIbi0mi@V3
-Z16 VJgORYWRECNT5LiP4;Hzc11
-R3
-Z17 w1674568710
-Z18 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v
-Z19 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v
+Z19 !s100 _gX1^O0PkeloQO?`Cof=T0
+Z20 Ik?N`g2YAfSNzAIbi0mi@V3
+Z21 VJgORYWRECNT5LiP4;Hzc11
+R4
+Z22 w1674568710
+Z23 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v
+Z24 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v
 L0 1
-R7
+R8
 r1
 31
-Z20 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v|
-R8
-Z21 n@register
-Z22 !s108 1674733491.175000
-Z23 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v|
+Z25 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v|
+R10
+Z26 n@register
+Z27 !s108 1674734290.170000
+Z28 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v|
 !i10b 1
 !s85 0
 !s101 -O0

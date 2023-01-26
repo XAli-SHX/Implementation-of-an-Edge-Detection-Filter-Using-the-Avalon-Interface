@@ -1,7 +1,7 @@
 module CounterDualPort_tb();
     
     reg clk_r = 0, rst_r = 0, inc_r = 0, clear_r = 0;
-    wire [2:0] X_w, Y_w;
+    wire [1:0] X_w, Y_w;
     wire finished_w;
 
     CounterDualPort #(.X_END(3), .Y_END(3)) 
