@@ -1,0 +1,14 @@
+# Reading H:/Programs/Quartus/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# OpenFile H:/University/term7/FPGA/CA/2/Codes/edge_detection/simulation/edge_detector.mpf 
+# Loading project edge_detector
+# Compile of Rgb2Gray_Datapath.v was successful.
+# Compile of Rgb2Gray_Controller.v was successful.
+# Compile of Rgb2Gray.v was successful.
+# Compile of Rgb2Gray_tb.v was successful.
+# Compile of EdgeDetector_Datapath.v was successful.
+# Compile of EdgeDetector_Controller.v was successful.
+# Compile of EdgeDetector.v was successful.
+# Compile of Register.v was successful.
+# Compile of Rgb2Gray.v was successful.
+# Compile of Rgb2Gray_tb.v was successful.
+# 10 compiles, 0 failed with no errors. 

@@ -11,8 +11,8 @@ module CounterDualPort #(
     finished_o
 );
 
-    localparam X_WIDTH = $clog2(X_END + 1) - 1;
-    localparam Y_WIDTH = $clog2(Y_END + 1) - 1;
+    localparam X_WIDTH = $clog2(X_END);
+    localparam Y_WIDTH = $clog2(Y_END);
     input clk_i, rst_i, inc_i, clear_i;
     output reg [X_WIDTH-1:0] X_o;
     output reg [Y_WIDTH-1:0] Y_o;
@@ -20,18 +20,18 @@ module CounterDualPort #(
 
     always @(posedge clk_i or posedge rst_i) begin
         if (rst_i) begin
-            X_o <= 0;
-            Y_o <= 0;
+            X_o <= {X_WIDTH{1'b0}};
+            Y_o <= {Y_WIDTH{1'b0}};
         end else begin
             if (clear_i) begin
-                X_o <= 0;
-                Y_o <= 0;
+                X_o <= {X_WIDTH{1'b0}};
+                Y_o <= {Y_WIDTH{1'b0}};
             end else begin
                 if (inc_i) begin
                     if (Y_o == Y_END) begin
-                        Y_o <= 0;
+                        Y_o <= {Y_WIDTH{1'b0}};
                         if (X_o == X_END) begin
-                            X_o <= 0;
+                            X_o <= {X_WIDTH{1'b0}};
                         end else begin
                             X_o <= X_o + 1;
                         end

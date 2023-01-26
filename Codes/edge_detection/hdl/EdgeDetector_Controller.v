@@ -8,7 +8,7 @@ module EdgeDetector_Controller (
     outputSent_i,
     cntrInputClear_o,
     cntrKernelClear_o,
-    cntrGclear_o,
+    cntrMemGclear_o,
     memGclear_o,
     memImgWr_o,
     cntrInputInc_o,
@@ -21,7 +21,7 @@ module EdgeDetector_Controller (
 );
 
     input clk_i, rst_i, start_i, inputRecieved_i, kernelResReady_i, imageProcessed_i, outputSent_i;
-    output cntrInputClear_o, cntrKernelClear_o, cntrGclear_o, memGclear_o, memImgWr_o, 
+    output cntrInputClear_o, cntrKernelClear_o, cntrMemGclear_o, memGclear_o, memImgWr_o, 
            cntrInputInc_o, saveImgOrCalculate_o, cntrKernelInc_o, memGwr_o, cntrMemGinc_o, 
            dataAvailable_o, valid_o;
 
@@ -58,7 +58,7 @@ module EdgeDetector_Controller (
             Wait4Pulse_s: begin
                 cntrInputClear_o = 1;
                 cntrKernelClear_o = 1;
-                cntrGclear_o = 1;
+                cntrMemGclear_o = 1;
                 memGclear_o = 1;
             end
             GetInput_s: begin
@@ -80,7 +80,7 @@ module EdgeDetector_Controller (
                 valid_o = 0;
                 cntrInputClear_o = 0;
                 cntrKernelClear_o = 0;
-                cntrGclear_o = 0;
+                cntrMemGclear_o = 0;
                 memGclear_o = 0;
                 memImgWr = 0;
                 cntrInputInc = 0;
