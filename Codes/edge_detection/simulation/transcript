@@ -134,3 +134,41 @@
 # Compile of Rgb2Gray.v was successful.
 # Compile of Rgb2Gray_tb.v was successful.
 # 18 compiles, 1 failed with 7 errors. 
+# Compile of Rgb2Gray_Datapath.v was successful.
+# Compile of Rgb2Gray_Controller.v was successful.
+# Compile of Rgb2Gray.v was successful.
+# Compile of Rgb2Gray_tb.v was successful.
+# Compile of EdgeDetector_Datapath.v was successful.
+# Compile of EdgeDetector_Controller.v failed with 26 errors.
+# Compile of EdgeDetector.v was successful.
+# Compile of EdgeDetector_MemImgAdrGen.v was successful.
+# Compile of EdgeDetector_Kernel.v was successful.
+# Compile of Register.v was successful.
+# Compile of CounterDualPort.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mac.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Abs.v was successful.
+# Compile of CounterDualPort_tb.v was successful.
+# Compile of Rgb2Gray.v was successful.
+# Compile of Rgb2Gray_tb.v was successful.
+# 18 compiles, 1 failed with 26 errors. 
+# Compile of Rgb2Gray_Datapath.v was successful.
+# Compile of Rgb2Gray_Controller.v was successful.
+# Compile of Rgb2Gray.v was successful.
+# Compile of Rgb2Gray_tb.v was successful.
+# Compile of EdgeDetector_Datapath.v was successful.
+# Compile of EdgeDetector_Controller.v was successful.
+# Compile of EdgeDetector.v was successful.
+# Compile of EdgeDetector_MemImgAdrGen.v was successful.
+# Compile of EdgeDetector_Kernel.v was successful.
+# Compile of Register.v was successful.
+# Compile of CounterDualPort.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mac.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Abs.v was successful.
+# Compile of CounterDualPort_tb.v was successful.
+# Compile of Rgb2Gray.v was successful.
+# Compile of Rgb2Gray_tb.v was successful.
+# 18 compiles, 0 failed with no errors. 

@@ -21,7 +21,7 @@ module EdgeDetector_Controller (
 );
 
     input clk_i, rst_i, start_i, inputRecieved_i, kernelResReady_i, imageProcessed_i, outputSent_i;
-    output cntrInputClear_o, cntrKernelClear_o, cntrMemGclear_o, memGclear_o, memImgWr_o, 
+    output reg cntrInputClear_o, cntrKernelClear_o, cntrMemGclear_o, memGclear_o, memImgWr_o, 
            cntrInputInc_o, saveImgOrCalculate_o, cntrKernelInc_o, memGwr_o, cntrMemGinc_o, 
            dataAvailable_o, valid_o;
 
@@ -62,19 +62,19 @@ module EdgeDetector_Controller (
                 memGclear_o = 1;
             end
             GetInput_s: begin
-                memImgWr = 1;
-                cntrInputInc = 1;
+                memImgWr_o = 1;
+                cntrInputInc_o = 1;
             end
             CalculateKernel_s: begin
-                saveImgOrCalculate = 1;
-                cntrKernelInc = 1;
-                memGwr = 1;
+                saveImgOrCalculate_o = 1;
+                cntrKernelInc_o = 1;
+                memGwr_o = 1;
             end
-            NextKernel_s: cntrMemGinc = 1;
-            DataAvailable_s: dataAvailable = 1;
+            NextKernel_s: cntrMemGinc_o = 1;
+            DataAvailable_s: dataAvailable_o = 1;
             GiveOutput_s: begin
-                cntrMemGinc = 1;
-                dataAvailable = 1;
+                cntrMemGinc_o = 1;
+                dataAvailable_o = 1;
             end
             default: begin
                 valid_o = 0;
@@ -82,13 +82,13 @@ module EdgeDetector_Controller (
                 cntrKernelClear_o = 0;
                 cntrMemGclear_o = 0;
                 memGclear_o = 0;
-                memImgWr = 0;
-                cntrInputInc = 0;
-                saveImgOrCalculate = 0;
-                cntrKernelInc = 0;
-                memGwr = 0;
-                cntrMemGinc = 0;
-                dataAvailable = 0;
+                memImgWr_o = 0;
+                cntrInputInc_o = 0;
+                saveImgOrCalculate_o = 0;
+                cntrKernelInc_o = 0;
+                memGwr_o = 0;
+                cntrMemGinc_o = 0;
+                dataAvailable_o = 0;
             end
         endcase
     end

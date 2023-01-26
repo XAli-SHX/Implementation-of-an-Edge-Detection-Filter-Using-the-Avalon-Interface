@@ -18,7 +18,7 @@ r1
 Z9 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Abs.v|
 Z10 o-work work -O0
 n@abs
-Z11 !s108 1674750262.927000
+Z11 !s108 1674750395.326000
 Z12 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Abs.v|
 !i10b 1
 !s85 0
@@ -38,7 +38,7 @@ r1
 Z19 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v|
 R10
 Z20 n@counter@dual@port
-Z21 !s108 1674750262.576000
+Z21 !s108 1674750394.968000
 Z22 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v|
 !i10b 1
 !s85 0
@@ -58,28 +58,28 @@ r1
 Z29 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v|
 R10
 Z30 n@counter@dual@port_tb
-Z31 !s108 1674750263.018000
+Z31 !s108 1674750395.417000
 Z32 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vEdgeDetector_Controller
-Z33 IdM3:ACSfSPdoGRXjmlZYj2
-Z34 VoH^?^^bj<5S8n[XDbS2nZ3
+Z33 IVElD8b9ZZC^_gloSCYBCR0
+Z34 Vm>28@MK@omGhELYI@FaLa2
 R4
-Z35 w1674658922
+Z35 w1674750390
 Z36 8H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v
 Z37 FH:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v
 L0 1
 R8
 r1
 31
+Z38 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v|
 R10
-Z38 n@edge@detector_@controller
-Z39 !s100 Bhi1g[je`foMNI=_=^`?U3
-Z40 !s108 1674666377.551000
-Z41 !s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v|
-Z42 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v|
+Z39 n@edge@detector_@controller
+Z40 !s100 1hoAji=<Dj<GbF12MzBSD0
+Z41 !s108 1674750394.559000
+Z42 !s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v|
 !i10b 1
 !s85 0
 !s101 -O0
@@ -98,27 +98,27 @@ r1
 Z49 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v|
 R10
 Z50 n@edge@detector_@datapath
-Z51 !s108 1674750262.078000
+Z51 !s108 1674750394.434000
 Z52 !s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vEdgeDetector_Kernel
-Z53 IeYA`C_4@X^g^1I9ol=`390
-Z54 VQ8KTd<GDIz?fmbKa>2VA61
+Z53 !s100 0W:O9_L^A5nmm9U1LeR7f0
+Z54 IeYA`C_4@X^g^1I9ol=`390
+Z55 VQ8KTd<GDIz?fmbKa>2VA61
 R4
-Z55 w1674750254
-Z56 8H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v
-Z57 FH:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v
+Z56 w1674750254
+Z57 8H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v
+Z58 FH:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v
 L0 1
 R8
 r1
 31
-Z58 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v|
+Z59 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v|
 R10
-Z59 n@edge@detector_@kernel
-Z60 !s100 0W:O9_L^A5nmm9U1LeR7f0
-Z61 !s108 1674750262.403000
+Z60 n@edge@detector_@kernel
+Z61 !s108 1674750394.796000
 Z62 !s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v|
 !i10b 1
 !s85 0
@@ -138,7 +138,7 @@ r1
 Z69 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v|
 R10
 Z70 n@edge@detector_@mem@img@adr@gen
-Z71 !s108 1674750262.284000
+Z71 !s108 1674750394.704000
 Z72 !s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v|
 !i10b 1
 !s85 0
@@ -158,7 +158,7 @@ r1
 Z79 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v|
 R10
 n@mac
-Z80 !s108 1674750262.749000
+Z80 !s108 1674750395.149000
 Z81 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v|
 !i10b 1
 !s85 0
@@ -178,7 +178,7 @@ r1
 Z88 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v|
 R10
 Z89 n@memory
-Z90 !s108 1674750262.839000
+Z90 !s108 1674750395.240000
 Z91 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v|
 !i10b 1
 !s85 0
@@ -198,7 +198,7 @@ r1
 Z98 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v|
 R10
 Z99 n@mux2
-Z100 !s108 1674750262.661000
+Z100 !s108 1674750395.064000
 Z101 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v|
 !i10b 1
 !s85 0
@@ -218,7 +218,7 @@ r1
 Z108 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v|
 R10
 Z109 n@register
-Z110 !s108 1674750262.495000
+Z110 !s108 1674750394.879000
 Z111 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v|
 !i10b 1
 !s85 0
@@ -239,7 +239,7 @@ Z117 n@rgb2@gray
 !i10b 1
 Z118 !s100 Q9KLgZliSQEH;I3SL1K590
 !s85 0
-Z119 !s108 1674750263.108000
+Z119 !s108 1674750395.506000
 Z120 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v|
 Z121 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v|
 !s101 -O0
@@ -258,7 +258,7 @@ r1
 Z128 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v|
 R10
 Z129 n@rgb2@gray_@controller
-Z130 !s108 1674750261.774000
+Z130 !s108 1674750394.170000
 Z131 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v|
 !i10b 1
 !s85 0
@@ -278,7 +278,7 @@ r1
 Z138 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v|
 R10
 Z139 n@rgb2@gray_@datapath
-Z140 !s108 1674750261.386000
+Z140 !s108 1674750394.072000
 Z141 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v|
 !i10b 1
 !s85 0
@@ -297,7 +297,7 @@ R8
 r1
 !s85 0
 31
-!s108 1674750263.201000
+!s108 1674750395.608000
 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/test/Rgb2Gray_tb.v|
 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/test/Rgb2Gray_tb.v|
 !s101 -O0
