@@ -61,6 +61,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	CounterDualPort_tb
 
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module EdgeDetector_Kernel
+
+Top level modules:
+	EdgeDetector_Kernel
+
 } {} {}} H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Mac
@@ -85,25 +92,14 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	Rgb2Gray_tb
 
-} {} {}} H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v {0 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module EdgeDetector_Controller
-** Error: H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v(65): (vlog-2730) Undefined variable: 'memImgWr'.
 
-** Error: H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v(66): (vlog-2730) Undefined variable: 'cntrInputInc'.
+Top level modules:
+	EdgeDetector_Controller
 
-** Error: H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v(69): (vlog-2730) Undefined variable: 'saveImgOrCalculate'.
-
-** Error: H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v(70): (vlog-2730) Undefined variable: 'cntrKernelInc'.
-
-** Error: H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v(71): (vlog-2730) Undefined variable: 'memGwr'.
-
-** Error: H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v(73): (vlog-2730) Undefined variable: 'cntrMemGinc'.
-
-** Error: H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v(74): (vlog-2730) Undefined variable: 'dataAvailable'.
-
-
-} {4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 14.0 15.0 16.0 17.0} {}} H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Mux2
 
