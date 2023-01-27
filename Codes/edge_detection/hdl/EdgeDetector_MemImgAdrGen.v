@@ -7,10 +7,14 @@ module EdgeDetector_MemImgAdrGen #(
     MemImgAdr_o
 );
 
-    input [X_SIZE-1:0] X_i;
-    input [Y_SIZE-1:0] Y_i;
-    output [X_SIZE+Y_SIZE-1:0] MemImgAdr_o;
+    localparam X_BITS = $clog2(X_SIZE);
+    localparam Y_BITS = $clog2(Y_SIZE);
+    localparam ADR_BITS = $clog2(X_SIZE*Y_SIZE);
 
-    assign MemImgAdr_o = (X_i * X_SIZE) + Y_i;
+    input [X_BITS-1:0] X_i;
+    input [Y_BITS-1:0] Y_i;
+    output [ADR_BITS-1:0] MemImgAdr_o;
+
+    assign MemImgAdr_o = (X_i * Y_SIZE) + Y_i;
     
 endmodule

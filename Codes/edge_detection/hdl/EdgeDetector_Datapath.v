@@ -44,6 +44,10 @@ module EdgeDetector_Datapath #(
     wire [$clog2(KY_BITS)-1:0] KyIndex_w;
     wire [IMG_X_BITS-1:0] ImgxIndex_w;
     wire [IMG_Y_BITS-1:0] ImgyIndex_w;
+    
+    wire [IMG_X_BITS-1:0] GxIndex_w;
+    wire [IMG_Y_BITS-1:0] GyIndex_w;
+
 
     wire [IMG_X_BITS-1:0] KxImgxIndex_w;
     wire [IMG_Y_BITS-1:0] KyImgyIndex_w;
@@ -51,15 +55,15 @@ module EdgeDetector_Datapath #(
     wire [IMG_Y_BITS-1:0] MemImgyAdr_w;
     wire [IMG_ADR_BITS-1:0] MemImgAdr_w;
     wire [G_ADR_BITS-1:0] MemGxyAdr_w;
-    wire [7:0] ImgPixel_w;
-    wire [2:0] Kx_w, Ky_w;
-    wire [11:0] DataWrMemGx_w, DataWrMemGy_w;
+    wire signed [7:0] ImgPixel_w;
+    wire signed [2:0] Kx_w, Ky_w;
+    wire signed [11:0] DataWrMemGx_w, DataWrMemGy_w;
     wire [11:0] GxPixel_w; // TODO: parameterize
     wire [11:0] GyPixel_w; // TODO: parameterize
     wire [11:0] GxPixelAbs_w, GyPixelAbs_w;
     
 
-    CounterDualPort #(.X_END(KX_SIZE), .Y_END(KY_SIZE))
+    CounterDualPort #(.X_END(KX_SIZE-1), .Y_END(KY_SIZE-1))
       CntrKernel (
         .clk_i(clk_i),
         .rst_i(rst_i),
@@ -81,23 +85,23 @@ module EdgeDetector_Datapath #(
         .finished_o(inputRecieved_o)
     );
     
-    CounterDualPort #(.X_END(IMG_X_SIZE-2), .Y_END(IMG_Y_SIZE-2))
+    CounterDualPort #(.X_END(IMG_X_SIZE-3), .Y_END(IMG_Y_SIZE-3))
       CntrMemG (
         .clk_i(clk_i),
         .rst_i(rst_i),
         .inc_i(cntrMemGinc_i),
         .clear_i(cntrMemGclear_i),
-        .X_o(ImgxIndex_w),
-        .Y_o(ImgyIndex_w),
+        .X_o(GxIndex_w),
+        .Y_o(GyIndex_w),
         .finished_o(imageProcessed_o)
     );
     assign outputSent_o = imageProcessed_o;
 
     // KernelxIndex + MemGxIndex
-    assign KxImgxIndex_w = KxIndex_w + ImgxIndex_w;
+    assign KxImgxIndex_w = KxIndex_w + GxIndex_w;
 
     // KernelyIndex + MemGyIndex
-    assign KyImgyIndex_w = KyIndex_w + ImgyIndex_w;
+    assign KyImgyIndex_w = KyIndex_w + GyIndex_w;
 
     Mux2 #(.WIDTH(IMG_X_BITS))
       MuxSaveImgxOrCalculateX (
@@ -115,7 +119,7 @@ module EdgeDetector_Datapath #(
         .DataOut_o(MemImgyAdr_w)
     );
 
-    EdgeDetector_MemImgAdrGen #(.X_SIZE(IMG_X_BITS), .Y_SIZE(IMG_Y_BITS))
+    EdgeDetector_MemImgAdrGen #(.X_SIZE(IMG_X_SIZE), .Y_SIZE(IMG_Y_SIZE))
       MemImgAdrGen (
         .X_i(MemImgxAdr_w), 
         .Y_i(MemImgyAdr_w),
@@ -126,6 +130,7 @@ module EdgeDetector_Datapath #(
       MemImg (
         .clk_i(clk_i),
         .wr_i(memImgWr_i),
+        .clear_i(1'b0),
         .Adr_i(MemImgAdr_w),
         .DataWr_i(GrayImg_i),
         .DataRd_o(ImgPixel_w)
@@ -138,10 +143,10 @@ module EdgeDetector_Datapath #(
         .Ky_o(Ky_w)
     );
 
-    EdgeDetector_MemImgAdrGen #(.X_SIZE(IMG_X_BITS), .Y_SIZE(IMG_Y_BITS))
+    EdgeDetector_MemImgAdrGen #(.X_SIZE(IMG_X_SIZE-2), .Y_SIZE(IMG_Y_SIZE-2))
       MemGxyAdrGen (
-        .X_i(ImgxIndex_w), 
-        .Y_i(ImgyIndex_w),
+        .X_i(GxIndex_w), 
+        .Y_i(GyIndex_w),
         .MemImgAdr_o(MemGxyAdr_w)
     );
 
@@ -165,6 +170,7 @@ module EdgeDetector_Datapath #(
       MemGx (
         .clk_i(clk_i),
         .wr_i(memGwr_i),
+        .clear_i(memGclear_i),
         .Adr_i(MemGxyAdr_w),
         .DataWr_i(DataWrMemGx_w),
         .DataRd_o(GxPixel_w)
@@ -174,6 +180,7 @@ module EdgeDetector_Datapath #(
       MemGy (
         .clk_i(clk_i),
         .wr_i(memGwr_i),
+        .clear_i(memGclear_i),
         .Adr_i(MemGxyAdr_w),
         .DataWr_i(DataWrMemGy_w),
         .DataRd_o(GyPixel_w)
