@@ -40,6 +40,7 @@ module EdgeDetector_Controller (
     end
 
     always @(ps_r, start_i, inputRecieved_i, kernelResReady_i, imageProcessed_i, outputSent_i) begin
+        ns_r = Idle_s;
         case (ps_r)
             Idle_s: ns_r = start_i ? Wait4Pulse_s : Idle_s;
             Wait4Pulse_s: ns_r = ~start_i ? GetInput_s : Wait4Pulse_s;
@@ -48,11 +49,22 @@ module EdgeDetector_Controller (
             NextKernel_s: ns_r = imageProcessed_i ? DataAvailable_s : CalculateKernel_s;
             DataAvailable_s: ns_r = GiveOutput_s;
             GiveOutput_s: ns_r = outputSent_i ? Idle_s : GiveOutput_s;
-            default: ns_r = Idle_s;
         endcase
     end
 
     always @(ps_r) begin
+        valid_o = 0;
+        cntrInputClear_o = 0;
+        cntrKernelClear_o = 0;
+        cntrMemGclear_o = 0;
+        memGclear_o = 0;
+        memImgWr_o = 0;
+        cntrInputInc_o = 0;
+        saveImgOrCalculate_o = 0;
+        cntrKernelInc_o = 0;
+        memGwr_o = 0;
+        cntrMemGinc_o = 0;
+        dataAvailable_o = 0;
         case (ps_r)
             Idle_s: valid_o = 1;
             Wait4Pulse_s: begin
@@ -75,20 +87,6 @@ module EdgeDetector_Controller (
             GiveOutput_s: begin
                 cntrMemGinc_o = 1;
                 dataAvailable_o = 1;
-            end
-            default: begin
-                valid_o = 0;
-                cntrInputClear_o = 0;
-                cntrKernelClear_o = 0;
-                cntrMemGclear_o = 0;
-                memGclear_o = 0;
-                memImgWr_o = 0;
-                cntrInputInc_o = 0;
-                saveImgOrCalculate_o = 0;
-                cntrKernelInc_o = 0;
-                memGwr_o = 0;
-                cntrMemGinc_o = 0;
-                dataAvailable_o = 0;
             end
         endcase
     end
