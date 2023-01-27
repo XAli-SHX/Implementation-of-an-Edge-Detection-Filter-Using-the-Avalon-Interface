@@ -8,6 +8,7 @@ entity Memory is
     port(
         clk_i           : in     vl_logic;
         wr_i            : in     vl_logic;
+        clear_i         : in     vl_logic;
         Adr_i           : in     vl_logic_vector;
         DataWr_i        : in     vl_logic_vector;
         DataRd_o        : out    vl_logic_vector
