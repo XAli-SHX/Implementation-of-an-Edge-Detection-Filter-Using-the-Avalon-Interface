@@ -6,102 +6,7 @@
 # Compile of Rgb2Gray.v was successful.
 # Compile of Rgb2Gray_tb.v was successful.
 # Compile of EdgeDetector_Datapath.v was successful.
-# Compile of EdgeDetector_Controller.v failed with 7 errors.
-# Compile of EdgeDetector.v was successful.
-# Compile of EdgeDetector_MemImgAdrGen.v was successful.
-# Compile of EdgeDetector_Kernel.v failed with 3 errors.
-# Compile of Register.v was successful.
-# Compile of CounterDualPort.v was successful.
-# Compile of Mux2.v was successful.
-# Compile of Mac.v was successful.
-# Compile of Memory.v was successful.
-# Compile of Abs.v was successful.
-# Compile of CounterDualPort_tb.v was successful.
-# Compile of Rgb2Gray.v was successful.
-# Compile of Rgb2Gray_tb.v was successful.
-# 18 compiles, 2 failed with 10 errors. 
-# Compile of Rgb2Gray_Datapath.v was successful.
-# Compile of Rgb2Gray_Controller.v was successful.
-# Compile of Rgb2Gray.v was successful.
-# Compile of Rgb2Gray_tb.v was successful.
-# Compile of EdgeDetector_Datapath.v was successful.
-# Compile of EdgeDetector_Controller.v failed with 7 errors.
-# Compile of EdgeDetector.v was successful.
-# Compile of EdgeDetector_MemImgAdrGen.v was successful.
-# Compile of EdgeDetector_Kernel.v failed with 1 errors.
-# Compile of Register.v was successful.
-# Compile of CounterDualPort.v was successful.
-# Compile of Mux2.v was successful.
-# Compile of Mac.v was successful.
-# Compile of Memory.v was successful.
-# Compile of Abs.v was successful.
-# Compile of CounterDualPort_tb.v was successful.
-# Compile of Rgb2Gray.v was successful.
-# Compile of Rgb2Gray_tb.v was successful.
-# 18 compiles, 2 failed with 8 errors. 
-# Compile of Rgb2Gray_Datapath.v was successful.
-# Compile of Rgb2Gray_Controller.v was successful.
-# Compile of Rgb2Gray.v was successful.
-# Compile of Rgb2Gray_tb.v was successful.
-# Compile of EdgeDetector_Datapath.v was successful.
-# Compile of EdgeDetector_Controller.v failed with 7 errors.
-# Compile of EdgeDetector.v was successful.
-# Compile of EdgeDetector_MemImgAdrGen.v was successful.
-# Compile of EdgeDetector_Kernel.v failed with 1 errors.
-# Compile of Register.v was successful.
-# Compile of CounterDualPort.v was successful.
-# Compile of Mux2.v was successful.
-# Compile of Mac.v was successful.
-# Compile of Memory.v was successful.
-# Compile of Abs.v was successful.
-# Compile of CounterDualPort_tb.v was successful.
-# Compile of Rgb2Gray.v was successful.
-# Compile of Rgb2Gray_tb.v was successful.
-# 18 compiles, 2 failed with 8 errors. 
-# Compile of Rgb2Gray_Datapath.v was successful.
-# Compile of Rgb2Gray_Controller.v was successful.
-# Compile of Rgb2Gray.v was successful.
-# Compile of Rgb2Gray_tb.v was successful.
-# Compile of EdgeDetector_Datapath.v was successful.
-# Compile of EdgeDetector_Controller.v failed with 7 errors.
-# Compile of EdgeDetector.v was successful.
-# Compile of EdgeDetector_MemImgAdrGen.v was successful.
-# Compile of EdgeDetector_Kernel.v failed with 1 errors.
-# Compile of Register.v was successful.
-# Compile of CounterDualPort.v was successful.
-# Compile of Mux2.v was successful.
-# Compile of Mac.v was successful.
-# Compile of Memory.v was successful.
-# Compile of Abs.v was successful.
-# Compile of CounterDualPort_tb.v was successful.
-# Compile of Rgb2Gray.v was successful.
-# Compile of Rgb2Gray_tb.v was successful.
-# 18 compiles, 2 failed with 8 errors. 
-# Compile of Rgb2Gray_Datapath.v was successful.
-# Compile of Rgb2Gray_Controller.v was successful.
-# Compile of Rgb2Gray.v was successful.
-# Compile of Rgb2Gray_tb.v was successful.
-# Compile of EdgeDetector_Datapath.v was successful.
-# Compile of EdgeDetector_Controller.v failed with 7 errors.
-# Compile of EdgeDetector.v was successful.
-# Compile of EdgeDetector_MemImgAdrGen.v was successful.
-# Compile of EdgeDetector_Kernel.v failed with 1 errors.
-# Compile of Register.v was successful.
-# Compile of CounterDualPort.v was successful.
-# Compile of Mux2.v was successful.
-# Compile of Mac.v was successful.
-# Compile of Memory.v was successful.
-# Compile of Abs.v was successful.
-# Compile of CounterDualPort_tb.v was successful.
-# Compile of Rgb2Gray.v was successful.
-# Compile of Rgb2Gray_tb.v was successful.
-# 18 compiles, 2 failed with 8 errors. 
-# Compile of Rgb2Gray_Datapath.v was successful.
-# Compile of Rgb2Gray_Controller.v was successful.
-# Compile of Rgb2Gray.v was successful.
-# Compile of Rgb2Gray_tb.v was successful.
-# Compile of EdgeDetector_Datapath.v was successful.
-# Compile of EdgeDetector_Controller.v failed with 7 errors.
+# Compile of EdgeDetector_Controller.v was successful.
 # Compile of EdgeDetector.v was successful.
 # Compile of EdgeDetector_MemImgAdrGen.v was successful.
 # Compile of EdgeDetector_Kernel.v was successful.
@@ -114,45 +19,8 @@
 # Compile of CounterDualPort_tb.v was successful.
 # Compile of Rgb2Gray.v was successful.
 # Compile of Rgb2Gray_tb.v was successful.
-# 18 compiles, 1 failed with 7 errors. 
-# Compile of Rgb2Gray_Datapath.v was successful.
-# Compile of Rgb2Gray_Controller.v was successful.
-# Compile of Rgb2Gray.v was successful.
-# Compile of Rgb2Gray_tb.v was successful.
-# Compile of EdgeDetector_Datapath.v was successful.
-# Compile of EdgeDetector_Controller.v failed with 7 errors.
-# Compile of EdgeDetector.v was successful.
-# Compile of EdgeDetector_MemImgAdrGen.v was successful.
-# Compile of EdgeDetector_Kernel.v was successful.
-# Compile of Register.v was successful.
-# Compile of CounterDualPort.v was successful.
-# Compile of Mux2.v was successful.
-# Compile of Mac.v was successful.
-# Compile of Memory.v was successful.
-# Compile of Abs.v was successful.
-# Compile of CounterDualPort_tb.v was successful.
-# Compile of Rgb2Gray.v was successful.
-# Compile of Rgb2Gray_tb.v was successful.
-# 18 compiles, 1 failed with 7 errors. 
-# Compile of Rgb2Gray_Datapath.v was successful.
-# Compile of Rgb2Gray_Controller.v was successful.
-# Compile of Rgb2Gray.v was successful.
-# Compile of Rgb2Gray_tb.v was successful.
-# Compile of EdgeDetector_Datapath.v was successful.
-# Compile of EdgeDetector_Controller.v failed with 26 errors.
-# Compile of EdgeDetector.v was successful.
-# Compile of EdgeDetector_MemImgAdrGen.v was successful.
-# Compile of EdgeDetector_Kernel.v was successful.
-# Compile of Register.v was successful.
-# Compile of CounterDualPort.v was successful.
-# Compile of Mux2.v was successful.
-# Compile of Mac.v was successful.
-# Compile of Memory.v was successful.
-# Compile of Abs.v was successful.
-# Compile of CounterDualPort_tb.v was successful.
-# Compile of Rgb2Gray.v was successful.
-# Compile of Rgb2Gray_tb.v was successful.
-# 18 compiles, 1 failed with 26 errors. 
+# Compile of EdgeDetector_tb.v failed with 1 errors.
+# 19 compiles, 1 failed with 1 error. 
 # Compile of Rgb2Gray_Datapath.v was successful.
 # Compile of Rgb2Gray_Controller.v was successful.
 # Compile of Rgb2Gray.v was successful.
@@ -171,4 +39,160 @@
 # Compile of CounterDualPort_tb.v was successful.
 # Compile of Rgb2Gray.v was successful.
 # Compile of Rgb2Gray_tb.v was successful.
-# 18 compiles, 0 failed with no errors. 
+# Compile of EdgeDetector_tb.v failed with 1 errors.
+# 19 compiles, 1 failed with 1 error. 
+# Compile of Rgb2Gray_Datapath.v was successful.
+# Compile of Rgb2Gray_Controller.v was successful.
+# Compile of Rgb2Gray.v was successful.
+# Compile of Rgb2Gray_tb.v was successful.
+# Compile of EdgeDetector_Datapath.v was successful.
+# Compile of EdgeDetector_Controller.v was successful.
+# Compile of EdgeDetector.v was successful.
+# Compile of EdgeDetector_MemImgAdrGen.v was successful.
+# Compile of EdgeDetector_Kernel.v was successful.
+# Compile of Register.v was successful.
+# Compile of CounterDualPort.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mac.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Abs.v was successful.
+# Compile of CounterDualPort_tb.v was successful.
+# Compile of Rgb2Gray.v was successful.
+# Compile of Rgb2Gray_tb.v was successful.
+# Compile of EdgeDetector_tb.v was successful.
+# 19 compiles, 0 failed with no errors. 
+vsim -gui work.EdgeDetector_tb
+# vsim -gui work.EdgeDetector_tb 
+# Loading work.EdgeDetector_tb
+# Loading work.EdgeDetector
+# Loading work.EdgeDetector_Datapath
+# Loading work.CounterDualPort
+# Loading work.Mux2
+# Loading work.EdgeDetector_MemImgAdrGen
+# Loading work.Mac
+# Loading work.Memory
+# Loading work.EdgeDetector_Kernel
+# Loading work.Abs
+# Loading work.EdgeDetector_Controller
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector.v(51): [PCDPC] - Port size (9 or 9) does not match connection size (8) for port 'ProcessedImagePixel_o'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(25).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP
+# ** Error: (vsim-3053) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(71): Illegal output or inout port connection for "port 'X_o'".
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/CntrKernel
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(71): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'X_o'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v(9).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/CntrKernel
+# ** Error: (vsim-3053) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(71): Illegal output or inout port connection for "port 'Y_o'".
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/CntrKernel
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(71): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'Y_o'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v(10).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/CntrKernel
+# ** Error: (vsim-3053) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(82): Illegal output or inout port connection for "port 'X_o'".
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/CntrInput
+# ** Error: (vsim-3053) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(82): Illegal output or inout port connection for "port 'Y_o'".
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/CntrInput
+# ** Error: (vsim-3053) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(93): Illegal output or inout port connection for "port 'X_o'".
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/CntrMemG
+# ** Error: (vsim-3053) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(93): Illegal output or inout port connection for "port 'Y_o'".
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/CntrMemG
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-8602) Replication multiplier (0) should be greater than zero.  Using 1.
+# 
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(108): [PCDPC] - Port size (5 or 5) does not match connection size (2) for port 'Data0_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v(4).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MuxSaveImgxOrCalculateX
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(108): [PCDPC] - Port size (5 or 5) does not match connection size (6) for port 'Data1_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v(5).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MuxSaveImgxOrCalculateX
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(108): [PCDPC] - Port size (5 or 5) does not match connection size (6) for port 'DataOut_o'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v(7).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MuxSaveImgxOrCalculateX
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(116): [PCDPC] - Port size (5 or 5) does not match connection size (2) for port 'Data0_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v(4).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MuxSaveImgyOrCalculateY
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(116): [PCDPC] - Port size (5 or 5) does not match connection size (6) for port 'Data1_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v(5).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MuxSaveImgyOrCalculateY
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(116): [PCDPC] - Port size (5 or 5) does not match connection size (6) for port 'DataOut_o'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v(7).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MuxSaveImgyOrCalculateY
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(123): [PCDPC] - Port size (2 or 2) does not match connection size (6) for port 'X_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v(5).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemImgAdrGen
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(123): [PCDPC] - Port size (2 or 2) does not match connection size (6) for port 'Y_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v(6).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemImgAdrGen
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v(20): [PCDPC] - Port size (2 or 2) does not match connection size (32) for port 'Mult2_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v(6).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemImgAdrGen/MacImgAdrGen
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v(20): [PCDPC] - Port size (5 or 5) does not match connection size (4) for port 'Result_o'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v(8).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemImgAdrGen/MacImgAdrGen
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(132): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'DataRd_o'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v(9).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemImg
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(146): [PCDPC] - Port size (3 or 3) does not match connection size (2) for port 'X_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v(5).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemGxyAdrGen
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(146): [PCDPC] - Port size (3 or 3) does not match connection size (2) for port 'Y_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v(6).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemGxyAdrGen
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(146): [PCDPC] - Port size (6 or 6) does not match connection size (2) for port 'MemImgAdr_o'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v(7).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemGxyAdrGen
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v(20): [PCDPC] - Port size (3 or 3) does not match connection size (32) for port 'Mult2_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v(6).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemGxyAdrGen/MacImgAdrGen
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v(20): [PCDPC] - Port size (7 or 7) does not match connection size (6) for port 'Result_o'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v(8).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemGxyAdrGen/MacImgAdrGen
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(154): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'Mult1_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v(5).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MacGx
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(154): [PCDPC] - Port size (8 or 8) does not match connection size (3) for port 'Mult2_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v(6).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MacGx
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(154): [PCDPC] - Port size (17 or 17) does not match connection size (15) for port 'Result_o'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v(8).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MacGx
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(162): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'Mult1_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v(5).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MacGy
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(162): [PCDPC] - Port size (8 or 8) does not match connection size (3) for port 'Mult2_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v(6).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MacGy
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(162): [PCDPC] - Port size (17 or 17) does not match connection size (15) for port 'Result_o'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v(8).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MacGy
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(171): [PCDPC] - Port size (2 or 2) does not match connection size (4) for port 'Adr_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v(7).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemGx
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(171): [PCDPC] - Port size (8 or 8) does not match connection size (15) for port 'DataWr_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v(8).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemGx
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(171): [PCDPC] - Port size (8 or 8) does not match connection size (15) for port 'DataRd_o'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v(9).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemGx
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(180): [PCDPC] - Port size (2 or 2) does not match connection size (4) for port 'Adr_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v(7).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemGy
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(180): [PCDPC] - Port size (8 or 8) does not match connection size (15) for port 'DataWr_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v(8).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemGy
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(180): [PCDPC] - Port size (8 or 8) does not match connection size (15) for port 'DataRd_o'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v(9).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/MemGy
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(186): [PCDPC] - Port size (8 or 8) does not match connection size (15) for port 'DataIn_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Abs.v(2).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/AbsMemGx
+# ** Warning: (vsim-3015) H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v(192): [PCDPC] - Port size (8 or 8) does not match connection size (15) for port 'DataIn_i'. The port definition is at: H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Abs.v(2).
+# 
+#         Region: /EdgeDetector_tb/EdgeDetector_DUT/EdgeDetector_DP/AbsMemGy
+# Error loading design

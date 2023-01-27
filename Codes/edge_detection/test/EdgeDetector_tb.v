@@ -3,7 +3,7 @@ module EdgeDetector_tb ();
     reg clk_r, rst_r, start_r;
     reg [7:0] GrayImage_r;
     wire valid_w, dataAvailable_w;
-    wire [7:0] ProcessedImagePixel_w [0:0];
+    wire [7:0] ProcessedImagePixel_w;
 
     EdgeDetector #(
         .KX_SIZE(3),
@@ -46,7 +46,7 @@ module EdgeDetector_tb ();
         @(posedge clk_r);
         GrayImage_r = 8'd90;
         @(posedge dataAvailable_w);
-        @(posedge valid_o);
+        @(posedge valid_w);
         #100 $stop();
     end
 

@@ -18,7 +18,7 @@ r1
 Z9 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Abs.v|
 Z10 o-work work -O0
 n@abs
-Z11 !s108 1674750395.326000
+Z11 !s108 1674804923.790000
 Z12 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Abs.v|
 !i10b 1
 !s85 0
@@ -38,7 +38,7 @@ r1
 Z19 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v|
 R10
 Z20 n@counter@dual@port
-Z21 !s108 1674750394.968000
+Z21 !s108 1674804923.389000
 Z22 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v|
 !i10b 1
 !s85 0
@@ -58,248 +58,288 @@ r1
 Z29 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v|
 R10
 Z30 n@counter@dual@port_tb
-Z31 !s108 1674750395.417000
+Z31 !s108 1674804923.883000
 Z32 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v|
 !i10b 1
 !s85 0
 !s101 -O0
-vEdgeDetector_Controller
-Z33 IVElD8b9ZZC^_gloSCYBCR0
-Z34 Vm>28@MK@omGhELYI@FaLa2
+vEdgeDetector
+Z33 !s100 H<`QJAihO6iLzZ2gCT4kL3
+Z34 I9HDnES_l;^NEei4R[J5kH0
+Z35 V35noWGC3@XjFON]UONULH2
 R4
-Z35 w1674750390
-Z36 8H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v
-Z37 FH:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v
+Z36 w1674804656
+Z37 8H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector.v
+Z38 FH:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector.v
 L0 1
 R8
 r1
 31
-Z38 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v|
+Z39 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector.v|
 R10
-Z39 n@edge@detector_@controller
-Z40 !s100 1hoAji=<Dj<GbF12MzBSD0
-Z41 !s108 1674750394.559000
-Z42 !s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v|
+Z40 n@edge@detector
+Z41 !s108 1674804922.960000
+Z42 !s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vEdgeDetector_Controller
+Z43 !s100 1hoAji=<Dj<GbF12MzBSD0
+Z44 IVElD8b9ZZC^_gloSCYBCR0
+Z45 Vm>28@MK@omGhELYI@FaLa2
+R4
+Z46 w1674750390
+Z47 8H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v
+Z48 FH:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v
+L0 1
+R8
+r1
+31
+Z49 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v|
+R10
+Z50 n@edge@detector_@controller
+Z51 !s108 1674804922.852000
+Z52 !s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Controller.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vEdgeDetector_Datapath
-Z43 !s100 ZRnJ1MCQonc5Rh07dCg7X3
-Z44 IEIMzdU:XYi_PIV0_Hf8ch3
-Z45 VaKXQhgKUik^0OF`J1MeOL3
+Z53 !s100 ZRnJ1MCQonc5Rh07dCg7X3
+Z54 IEIMzdU:XYi_PIV0_Hf8ch3
+Z55 VaKXQhgKUik^0OF`J1MeOL3
 R4
-Z46 w1674749526
-Z47 8H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v
-Z48 FH:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v
+Z56 w1674749526
+Z57 8H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v
+Z58 FH:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v
 L0 1
 R8
 r1
 31
-Z49 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v|
+Z59 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v|
 R10
-Z50 n@edge@detector_@datapath
-Z51 !s108 1674750394.434000
-Z52 !s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v|
+Z60 n@edge@detector_@datapath
+Z61 !s108 1674804922.736000
+Z62 !s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vEdgeDetector_Kernel
-Z53 !s100 0W:O9_L^A5nmm9U1LeR7f0
-Z54 IeYA`C_4@X^g^1I9ol=`390
-Z55 VQ8KTd<GDIz?fmbKa>2VA61
+Z63 !s100 0W:O9_L^A5nmm9U1LeR7f0
+Z64 IeYA`C_4@X^g^1I9ol=`390
+Z65 VQ8KTd<GDIz?fmbKa>2VA61
 R4
-Z56 w1674750254
-Z57 8H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v
-Z58 FH:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v
+Z66 w1674750254
+Z67 8H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v
+Z68 FH:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v
 L0 1
 R8
 r1
 31
-Z59 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v|
+Z69 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v|
 R10
-Z60 n@edge@detector_@kernel
-Z61 !s108 1674750394.796000
-Z62 !s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v|
+Z70 n@edge@detector_@kernel
+Z71 !s108 1674804923.196000
+Z72 !s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Kernel.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vEdgeDetector_MemImgAdrGen
-Z63 !s100 dg:=8?3@g8C;NfXmZWHn]1
-Z64 I77jA]l]9=lARWCMf8POX23
-Z65 V;M@Z`IegVJSS4`_e0jNok0
+Z73 !s100 dg:=8?3@g8C;NfXmZWHn]1
+Z74 I77jA]l]9=lARWCMf8POX23
+Z75 V;M@Z`IegVJSS4`_e0jNok0
 R4
-Z66 w1674745124
-Z67 8H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v
-Z68 FH:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v
+Z76 w1674745124
+Z77 8H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v
+Z78 FH:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v
 L0 1
 R8
 r1
 31
-Z69 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v|
+Z79 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v|
 R10
-Z70 n@edge@detector_@mem@img@adr@gen
-Z71 !s108 1674750394.704000
-Z72 !s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v|
+Z80 n@edge@detector_@mem@img@adr@gen
+Z81 !s108 1674804923.080000
+Z82 !s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_MemImgAdrGen.v|
 !i10b 1
 !s85 0
 !s101 -O0
-vMac
-Z73 !s100 `f8NZ7Y^FBIBoYoC_N50R3
-Z74 I`?4CR:DGFJea:3KV>JQ3J2
-Z75 V_WnVJle3_RFlF82[l@CnS3
+vEdgeDetector_tb
+!i10b 1
+!s100 6GoM6iS4e9c]hI[62jnKE0
+IZ=F2YfF1f5WKo3gi2fA7`2
+VZ[oEA5^dZh2Sk>JMnViVa0
 R4
-Z76 w1674744918
-Z77 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v
-Z78 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v
+w1674804918
+8H:/University/term7/FPGA/CA/2/Codes/edge_detection/test/EdgeDetector_tb.v
+FH:/University/term7/FPGA/CA/2/Codes/edge_detection/test/EdgeDetector_tb.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1674804924.156000
+!s107 H:/University/term7/FPGA/CA/2/Codes/edge_detection/test/EdgeDetector_tb.v|
+!s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/edge_detection/test/EdgeDetector_tb.v|
+!s101 -O0
+R10
+n@edge@detector_tb
+vMac
+Z83 !s100 `f8NZ7Y^FBIBoYoC_N50R3
+Z84 I`?4CR:DGFJea:3KV>JQ3J2
+Z85 V_WnVJle3_RFlF82[l@CnS3
+R4
+Z86 w1674744918
+Z87 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v
+Z88 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v
 L0 1
 R8
 r1
 31
-Z79 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v|
+Z89 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v|
 R10
 n@mac
-Z80 !s108 1674750395.149000
-Z81 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v|
+Z90 !s108 1674804923.591000
+Z91 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMemory
-Z82 !s100 5@M@BERiL=eNR`=R3MHj80
-Z83 Im?EA82JeHoGFh7mMfne<I3
-Z84 VoaZQE;f1=S3L5JJ?_jT;U3
+Z92 !s100 5@M@BERiL=eNR`=R3MHj80
+Z93 Im?EA82JeHoGFh7mMfne<I3
+Z94 VoaZQE;f1=S3L5JJ?_jT;U3
 R4
-Z85 w1674735690
-Z86 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v
-Z87 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v
+Z95 w1674735690
+Z96 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v
+Z97 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v
 L0 1
 R8
 r1
 31
-Z88 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v|
+Z98 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v|
 R10
-Z89 n@memory
-Z90 !s108 1674750395.240000
-Z91 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v|
+Z99 n@memory
+Z100 !s108 1674804923.695000
+Z101 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMux2
-Z92 !s100 T;G6Ia1CjRYdH?h90lXhh2
-Z93 I5CG2]gUiN;_o@JnFSOk2T0
-Z94 VS^IVAT;EjjZcSc3XSi@P00
+Z102 !s100 T;G6Ia1CjRYdH?h90lXhh2
+Z103 I5CG2]gUiN;_o@JnFSOk2T0
+Z104 VS^IVAT;EjjZcSc3XSi@P00
 R4
-Z95 w1674735072
-Z96 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v
-Z97 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v
+Z105 w1674735072
+Z106 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v
+Z107 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v
 L0 1
 R8
 r1
 31
-Z98 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v|
+Z108 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v|
 R10
-Z99 n@mux2
-Z100 !s108 1674750395.064000
-Z101 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v|
+Z109 n@mux2
+Z110 !s108 1674804923.490000
+Z111 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vRegister
-Z102 !s100 _gX1^O0PkeloQO?`Cof=T0
-Z103 Ik?N`g2YAfSNzAIbi0mi@V3
-Z104 VJgORYWRECNT5LiP4;Hzc11
+Z112 !s100 _gX1^O0PkeloQO?`Cof=T0
+Z113 Ik?N`g2YAfSNzAIbi0mi@V3
+Z114 VJgORYWRECNT5LiP4;Hzc11
 R4
-Z105 w1674568710
-Z106 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v
-Z107 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v
+Z115 w1674568710
+Z116 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v
+Z117 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v
 L0 1
 R8
 r1
 31
-Z108 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v|
+Z118 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v|
 R10
-Z109 n@register
-Z110 !s108 1674750394.879000
-Z111 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v|
+Z119 n@register
+Z120 !s108 1674804923.288000
+Z121 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vRgb2Gray
-Z112 IHX]BO`D0f=mhZYDOJ2T@N3
-Z113 V`7z04D:>:ST]XnG0C;c1]1
+Z122 IHX]BO`D0f=mhZYDOJ2T@N3
+Z123 V`7z04D:>:ST]XnG0C;c1]1
 R4
-Z114 w1674659766
-Z115 8H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v
-Z116 FH:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v
+Z124 w1674659766
+Z125 8H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v
+Z126 FH:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v
 L0 1
 R8
 r1
 31
 R10
-Z117 n@rgb2@gray
+Z127 n@rgb2@gray
+Z128 !s100 Q9KLgZliSQEH;I3SL1K590
+Z129 !s108 1674804923.975000
+Z130 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v|
+Z131 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v|
 !i10b 1
-Z118 !s100 Q9KLgZliSQEH;I3SL1K590
 !s85 0
-Z119 !s108 1674750395.506000
-Z120 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v|
-Z121 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v|
 !s101 -O0
 vRgb2Gray_Controller
-Z122 !s100 XQWOC5EWAdP[DAHY`QozM3
-Z123 I6>6RF8^5n8I_c8A_G1CQ23
-Z124 VSz>ofCPB0FJaJ4GLZWPPe1
+Z132 !s100 XQWOC5EWAdP[DAHY`QozM3
+Z133 I6>6RF8^5n8I_c8A_G1CQ23
+Z134 VSz>ofCPB0FJaJ4GLZWPPe1
 R4
-Z125 w1674567808
-Z126 8H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v
-Z127 FH:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v
+Z135 w1674567808
+Z136 8H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v
+Z137 FH:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v
 L0 1
 R8
 r1
 31
-Z128 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v|
+Z138 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v|
 R10
-Z129 n@rgb2@gray_@controller
-Z130 !s108 1674750394.170000
-Z131 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v|
+Z139 n@rgb2@gray_@controller
+Z140 !s108 1674804922.450000
+Z141 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vRgb2Gray_Datapath
-Z132 !s100 W5z?j8hMmEROj6VCPnNCM2
-Z133 I^h[@A7H`]]>MZJ2QJV`aY3
-Z134 V?zC3?bVbF<>ZWH]dhJ5if2
+Z142 !s100 W5z?j8hMmEROj6VCPnNCM2
+Z143 I^h[@A7H`]]>MZJ2QJV`aY3
+Z144 V?zC3?bVbF<>ZWH]dhJ5if2
 R4
-Z135 w1674661670
-Z136 8H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v
-Z137 FH:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v
+Z145 w1674661670
+Z146 8H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v
+Z147 FH:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v
 L0 1
 R8
 r1
 31
-Z138 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v|
+Z148 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v|
 R10
-Z139 n@rgb2@gray_@datapath
-Z140 !s108 1674750394.072000
-Z141 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v|
+Z149 n@rgb2@gray_@datapath
+Z150 !s108 1674804922.356000
+Z151 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vRgb2Gray_tb
-!i10b 1
-!s100 4kSjVC5l2Kh]JQH@iVd;X3
-I`9hoblXAZm6PBf1`IjG;40
-Z142 VT8L@OGRn9WLHTOOIB^glP3
+Z152 I`9hoblXAZm6PBf1`IjG;40
+Z153 VT8L@OGRn9WLHTOOIB^glP3
 R4
-Z143 w1674571554
-8H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/test/Rgb2Gray_tb.v
-FH:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/test/Rgb2Gray_tb.v
+Z154 w1674571554
+Z155 8H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/test/Rgb2Gray_tb.v
+Z156 FH:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/test/Rgb2Gray_tb.v
 L0 1
 R8
 r1
-!s85 0
 31
-!s108 1674750395.608000
-!s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/test/Rgb2Gray_tb.v|
-!s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/test/Rgb2Gray_tb.v|
-!s101 -O0
 R10
-Z144 n@rgb2@gray_tb
+Z157 n@rgb2@gray_tb
+!i10b 1
+Z158 !s100 4kSjVC5l2Kh]JQH@iVd;X3
+!s85 0
+Z159 !s108 1674804924.061000
+Z160 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/test/Rgb2Gray_tb.v|
+Z161 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/test/Rgb2Gray_tb.v|
+!s101 -O0
