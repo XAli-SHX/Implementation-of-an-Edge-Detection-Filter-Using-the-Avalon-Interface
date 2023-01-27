@@ -26,7 +26,7 @@ entity EdgeDetector_Datapath is
         kernelResReady_o: out    vl_logic;
         imageProcessed_o: out    vl_logic;
         outputSent_o    : out    vl_logic;
-        ProcessedImagePixel_o: out    vl_logic_vector(8 downto 0)
+        ProcessedImagePixel_o: out    vl_logic_vector(7 downto 0)
     );
     attribute mti_svvh_generic_type : integer;
     attribute mti_svvh_generic_type of KX_SIZE : constant is 1;

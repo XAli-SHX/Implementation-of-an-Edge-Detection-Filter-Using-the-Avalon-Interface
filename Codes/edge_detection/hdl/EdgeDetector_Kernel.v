@@ -5,8 +5,8 @@ module EdgeDetector_Kernel (
     Ky_o
 );
 
-    input [2:0] Xindex_i;
-    input [2:0] Yindex_i;
+    input [1:0] Xindex_i;
+    input [1:0] Yindex_i;
     output [2:0] Kx_o;
     output [2:0] Ky_o;
 

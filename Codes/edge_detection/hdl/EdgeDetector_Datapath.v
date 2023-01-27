@@ -38,25 +38,25 @@ module EdgeDetector_Datapath #(
           memGwr_i, cntrMemGinc_i, dataAvailable_i;
     input [7:0] GrayImg_i;
     output inputRecieved_o, kernelResReady_o, imageProcessed_o, outputSent_o;
-    output [8:0] ProcessedImagePixel_o;
+    output [7:0] ProcessedImagePixel_o;
 
-    reg [KX_BITS-1:0] KxIndex_r;
-    reg [KY_BITS-1:0] KyIndex_r;
-    reg [IMG_X_BITS-1:0] ImgxIndex_r;
-    reg [IMG_Y_BITS-1:0] ImgyIndex_r;
+    wire [$clog2(KX_BITS)-1:0] KxIndex_w;
+    wire [$clog2(KY_BITS)-1:0] KyIndex_w;
+    wire [IMG_X_BITS-1:0] ImgxIndex_w;
+    wire [IMG_Y_BITS-1:0] ImgyIndex_w;
 
-    wire [KX_BITS+IMG_X_BITS:0] KxImgxIndex_w;
-    wire [KY_BITS+IMG_Y_BITS:0] KyImgyIndex_w;
-    wire [KX_BITS+IMG_X_BITS:0] MemImgxAdr_w;
-    wire [KY_BITS+IMG_Y_BITS:0] MemImgyAdr_w;
+    wire [IMG_X_BITS-1:0] KxImgxIndex_w;
+    wire [IMG_Y_BITS-1:0] KyImgyIndex_w;
+    wire [IMG_X_BITS-1:0] MemImgxAdr_w;
+    wire [IMG_Y_BITS-1:0] MemImgyAdr_w;
     wire [IMG_ADR_BITS-1:0] MemImgAdr_w;
     wire [G_ADR_BITS-1:0] MemGxyAdr_w;
-    wire [IMG_ADR_BITS-1:0] ImgPixel_w;
+    wire [7:0] ImgPixel_w;
     wire [2:0] Kx_w, Ky_w;
-    wire [14:0] DataWrMemGx_w, DataWrMemGy_w;
-    wire [14:0] GxPixel_w; // TODO: parameterize
-    wire [14:0] GyPixel_w; // TODO: parameterize
-    wire [7:0] GxPixelAbs_w, GyPixelAbs_w;
+    wire [11:0] DataWrMemGx_w, DataWrMemGy_w;
+    wire [11:0] GxPixel_w; // TODO: parameterize
+    wire [11:0] GyPixel_w; // TODO: parameterize
+    wire [11:0] GxPixelAbs_w, GyPixelAbs_w;
     
 
     CounterDualPort #(.X_END(KX_SIZE), .Y_END(KY_SIZE))
@@ -65,8 +65,8 @@ module EdgeDetector_Datapath #(
         .rst_i(rst_i),
         .inc_i(cntrKernelInc_i),
         .clear_i(cntrKernelClear_i),
-        .X_o(KxIndex_r),
-        .Y_o(KyIndex_r),
+        .X_o(KxIndex_w),
+        .Y_o(KyIndex_w),
         .finished_o(kernelResReady_o)
     );
     
@@ -76,8 +76,8 @@ module EdgeDetector_Datapath #(
         .rst_i(rst_i),
         .inc_i(cntrInputInc_i),
         .clear_i(cntrInputClear_i),
-        .X_o(ImgxIndex_r),
-        .Y_o(ImgyIndex_r),
+        .X_o(ImgxIndex_w),
+        .Y_o(ImgyIndex_w),
         .finished_o(inputRecieved_o)
     );
     
@@ -87,29 +87,29 @@ module EdgeDetector_Datapath #(
         .rst_i(rst_i),
         .inc_i(cntrMemGinc_i),
         .clear_i(cntrMemGclear_i),
-        .X_o(ImgxIndex_r),
-        .Y_o(ImgyIndex_r),
+        .X_o(ImgxIndex_w),
+        .Y_o(ImgyIndex_w),
         .finished_o(imageProcessed_o)
     );
     assign outputSent_o = imageProcessed_o;
 
     // KernelxIndex + MemGxIndex
-    assign KxImgxIndex_w = KxIndex_r + ImgxIndex_r;
+    assign KxImgxIndex_w = KxIndex_w + ImgxIndex_w;
 
     // KernelyIndex + MemGyIndex
-    assign KyImgyIndex_w = KyIndex_r + ImgyIndex_r;
+    assign KyImgyIndex_w = KyIndex_w + ImgyIndex_w;
 
-    Mux2 #(.WIDTH(KX_BITS+IMG_X_BITS))
+    Mux2 #(.WIDTH(IMG_X_BITS))
       MuxSaveImgxOrCalculateX (
-        .Data0_i(ImgxIndex_r), 
+        .Data0_i(ImgxIndex_w), 
         .Data1_i(KxImgxIndex_w),
         .select_i(saveImgOrCalculate_i),
         .DataOut_o(MemImgxAdr_w)
     );
     
-    Mux2 #(.WIDTH(KY_BITS+IMG_Y_BITS))
+    Mux2 #(.WIDTH(IMG_Y_BITS))
       MuxSaveImgyOrCalculateY (
-        .Data0_i(ImgyIndex_r), 
+        .Data0_i(ImgyIndex_w), 
         .Data1_i(KyImgyIndex_w),
         .select_i(saveImgOrCalculate_i),
         .DataOut_o(MemImgyAdr_w)
@@ -132,60 +132,60 @@ module EdgeDetector_Datapath #(
     );
 
     EdgeDetector_Kernel KernelXY (
-        .Xindex_i(KxIndex_r), 
-        .Yindex_i(KyIndex_r),
+        .Xindex_i(KxIndex_w), 
+        .Yindex_i(KyIndex_w),
         .Kx_o(Kx_w),
         .Ky_o(Ky_w)
     );
 
-    EdgeDetector_MemImgAdrGen #(.X_SIZE(IMG_X_SIZE), .Y_SIZE(IMG_Y_SIZE))
+    EdgeDetector_MemImgAdrGen #(.X_SIZE(IMG_X_BITS), .Y_SIZE(IMG_Y_BITS))
       MemGxyAdrGen (
-        .X_i(ImgxIndex_r), 
-        .Y_i(ImgyIndex_r),
+        .X_i(ImgxIndex_w), 
+        .Y_i(ImgyIndex_w),
         .MemImgAdr_o(MemGxyAdr_w)
     );
 
-    Mac #(.MULT_SIZE(8), .ACCUM_SIZE(15))
+    Mac #(.MULT_SIZE(8), .ACCUM_SIZE(12))
       MacGx(  
         .Mult1_i(ImgPixel_w),
-        .Mult2_i(Kx_w),
+        .Mult2_i({{5{ Kx_w[2] }}, Kx_w}),
         .Accum_i(GxPixel_w),
         .Result_o(DataWrMemGx_w)
     );
     
-    Mac #(.MULT_SIZE(8), .ACCUM_SIZE(15))
+    Mac #(.MULT_SIZE(8), .ACCUM_SIZE(12))
       MacGy(  
         .Mult1_i(ImgPixel_w),
-        .Mult2_i(Ky_w),
+        .Mult2_i({{5{ Ky_w[2] }}, Ky_w}),
         .Accum_i(GyPixel_w),
         .Result_o(DataWrMemGy_w)
     );
 
-    Memory #(.WORD(8), .SIZE((IMG_X_SIZE-2) * (IMG_Y_SIZE-2)))
+    Memory #(.WORD(12), .SIZE((IMG_X_SIZE-2) * (IMG_Y_SIZE-2)))
       MemGx (
         .clk_i(clk_i),
         .wr_i(memGwr_i),
-        .Adr_i(MemImgAdr_w),
+        .Adr_i(MemGxyAdr_w),
         .DataWr_i(DataWrMemGx_w),
         .DataRd_o(GxPixel_w)
     );
     
-    Memory #(.WORD(8), .SIZE((IMG_X_SIZE-2) * (IMG_Y_SIZE-2)))
+    Memory #(.WORD(12), .SIZE((IMG_X_SIZE-2) * (IMG_Y_SIZE-2)))
       MemGy (
         .clk_i(clk_i),
         .wr_i(memGwr_i),
-        .Adr_i(MemImgAdr_w),
+        .Adr_i(MemGxyAdr_w),
         .DataWr_i(DataWrMemGy_w),
         .DataRd_o(GyPixel_w)
     );
 
-    Abs #(.WIDTH(8))
+    Abs #(.WIDTH(12))
       AbsMemGx (
         .DataIn_i(GxPixel_w), 
         .DataOut_o(GxPixelAbs_w)
     );
     
-    Abs #(.WIDTH(8))
+    Abs #(.WIDTH(12))
       AbsMemGy (
         .DataIn_i(GyPixel_w), 
         .DataOut_o(GyPixelAbs_w)
