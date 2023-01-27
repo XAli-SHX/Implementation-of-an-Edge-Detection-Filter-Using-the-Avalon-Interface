@@ -1,20 +1,21 @@
 module EdgeDetector #(
     parameter KX_SIZE = 3,
-    parameter KY_SIZE = 3,
-    parameter IMG_X_SIZE = 100,
-    parameter IMG_Y_SIZE = 100
+              KY_SIZE = 3,
+              IMG_X_SIZE = 100,
+              IMG_Y_SIZE = 100
 ) (
     clk_i, 
     rst_i,
     GrayImage_i,
     start_i,
+    dataAvailable_o,
     valid_o,
     ProcessedImagePixel_o
 );
 
     input clk_i, rst_i, start_i;
     input [7:0] GrayImage_i;
-    output valid_o;
+    output valid_o, dataAvailable_o;
     output [7:0] ProcessedImagePixel_o;
 
     wire cntrInputClear_w, cntrKernelClear_w, cntrMemGclear_w, memGclear_w,
@@ -53,22 +54,24 @@ module EdgeDetector #(
         .clk_i(clk_i),
         .rst_i(rst_i),
         .start_i(start_i),
-        .inputRecieved_i(cntrInputClear_w),
-        .kernelResReady_i(cntrKernelClear_w),
-        .imageProcessed_i(cntrMemGclear_w),
-        .outputSent_i(memGclear_w),
-        .cntrInputClear_o(memImgWr_w),
-        .cntrKernelClear_o(cntrInputInc_w),
-        .cntrMemGclear_o(saveImgOrCalculate_w),
-        .memGclear_o(cntrKernelInc_w),
-        .memImgWr_o(memGwr_w),
-        .cntrInputInc_o(cntrMemGinc_w),
-        .saveImgOrCalculate_o(dataAvailable_w),
-        .cntrKernelInc_o(inputRecieved_w),
-        .memGwr_o(kernelResReady_w),
-        .cntrMemGinc_o(imageProcessed_w),
-        .dataAvailable_o(outputSent_w),
+        .inputRecieved_i(inputRecieved_w),
+        .kernelResReady_i(kernelResReady_w),
+        .imageProcessed_i(imageProcessed_w),
+        .outputSent_i(outputSent_w),
+        .cntrInputClear_o(cntrInputClear_w),
+        .cntrKernelClear_o(cntrKernelClear_w),
+        .cntrMemGclear_o(cntrMemGclear_w),
+        .memGclear_o(memGclear_w),
+        .memImgWr_o(memImgWr_w),
+        .cntrInputInc_o(cntrInputInc_w),
+        .saveImgOrCalculate_o(saveImgOrCalculate_w),
+        .cntrKernelInc_o(cntrKernelInc_w),
+        .memGwr_o(memGwr_w),
+        .cntrMemGinc_o(cntrMemGinc_w),
+        .dataAvailable_o(dataAvailable_w),
         .valid_o(valid_o)
     );
+
+    assign dataAvailable_o = dataAvailable_w;
 
 endmodule
