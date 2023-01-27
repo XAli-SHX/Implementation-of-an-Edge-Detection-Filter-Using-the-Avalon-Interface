@@ -1,4 +1,11 @@
-H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v
+H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/edge_detection/hdl/EdgeDetector_Datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module EdgeDetector_Datapath
+
+Top level modules:
+	EdgeDetector_Datapath
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Rgb2Gray
 
@@ -116,12 +123,5 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	EdgeDetector_MemImgAdrGen
-
-} {} {}} H:/University/term7/FPGA/CA/2/Codes/edge_detection/test/EdgeDetector_tb.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/edge_detection/test/EdgeDetector_tb.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module EdgeDetector_tb
-
-Top level modules:
-	EdgeDetector_tb
 
 } {} {}}

@@ -1,7 +1,7 @@
 module EdgeDetector_tb ();
     
-    reg clk_r, rst_r, start_r;
-    reg [7:0] GrayImage_r;
+    reg clk_r = 0, rst_r = 0, start_r = 0;
+    reg [7:0] GrayImage_r = 8'd0;
     wire valid_w, dataAvailable_w;
     wire [7:0] ProcessedImagePixel_w;
 
