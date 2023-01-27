@@ -70,7 +70,7 @@ module EdgeDetector_Datapath #(
         .finished_o(kernelResReady_o)
     );
     
-    CounterDualPort #(.X_END(IMG_X_SIZE), .Y_END(IMG_Y_SIZE))
+    CounterDualPort #(.X_END(IMG_X_SIZE-1), .Y_END(IMG_Y_SIZE-1))
       CntrInput (
         .clk_i(clk_i),
         .rst_i(rst_i),

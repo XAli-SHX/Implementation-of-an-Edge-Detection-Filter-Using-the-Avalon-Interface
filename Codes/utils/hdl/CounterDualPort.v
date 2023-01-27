@@ -11,8 +11,8 @@ module CounterDualPort #(
     finished_o
 );
 
-    localparam X_WIDTH = $clog2(X_END);
-    localparam Y_WIDTH = $clog2(Y_END);
+    localparam X_WIDTH = X_END;
+    localparam Y_WIDTH = Y_END;
     input clk_i, rst_i, inc_i, clear_i;
     output reg [X_WIDTH-1:0] X_o;
     output reg [Y_WIDTH-1:0] Y_o;
@@ -44,7 +44,7 @@ module CounterDualPort #(
     end
 
     always @(X_o, Y_o) begin
-        if (X_o == X_END && Y_o == Y_END) begin
+        if ((X_o == X_END) & (Y_o == Y_END)) begin
             finished_o = 1;
         end else begin
             finished_o = 0;
