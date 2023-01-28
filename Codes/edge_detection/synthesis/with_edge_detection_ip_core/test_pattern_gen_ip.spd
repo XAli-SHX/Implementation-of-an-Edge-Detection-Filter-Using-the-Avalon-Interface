@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="test_pattern_gen_ip_sim/test_pattern_gen_ip.v" type="VERILOG" />
+ <topLevel name="test_pattern_gen_ip" />
+ <deviceFamily name="cycloneii" />
+</simPackage>

@@ -1,0 +1,102 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 368 168)
+	(text "test_pattern_gen_ip" (rect 126 -1 205 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 152 20 164)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk" (rect 0 0 10 12)(font "Arial" (font_size 8)))
+		(text "clk" (rect 4 61 22 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 112 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "reset" (rect 0 0 20 12)(font "Arial" (font_size 8)))
+		(text "reset" (rect 4 101 34 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 112 112)(line_width 1))
+	)
+	(port
+		(pt 368 72)
+		(input)
+		(text "ready" (rect 0 0 23 12)(font "Arial" (font_size 8)))
+		(text "ready" (rect 338 61 368 72)(font "Arial" (font_size 8)))
+		(line (pt 368 72)(pt 208 72)(line_width 1))
+	)
+	(port
+		(pt 368 88)
+		(output)
+		(text "data[23..0]" (rect 0 0 41 12)(font "Arial" (font_size 8)))
+		(text "data[23..0]" (rect 315 77 381 88)(font "Arial" (font_size 8)))
+		(line (pt 368 88)(pt 208 88)(line_width 3))
+	)
+	(port
+		(pt 368 104)
+		(output)
+		(text "startofpacket" (rect 0 0 51 12)(font "Arial" (font_size 8)))
+		(text "startofpacket" (rect 301 93 379 104)(font "Arial" (font_size 8)))
+		(line (pt 368 104)(pt 208 104)(line_width 1))
+	)
+	(port
+		(pt 368 120)
+		(output)
+		(text "endofpacket" (rect 0 0 48 12)(font "Arial" (font_size 8)))
+		(text "endofpacket" (rect 305 109 371 120)(font "Arial" (font_size 8)))
+		(line (pt 368 120)(pt 208 120)(line_width 1))
+	)
+	(port
+		(pt 368 136)
+		(output)
+		(text "valid" (rect 0 0 17 12)(font "Arial" (font_size 8)))
+		(text "valid" (rect 344 125 374 136)(font "Arial" (font_size 8)))
+		(line (pt 368 136)(pt 208 136)(line_width 1))
+	)
+	(drawing
+		(text "clock_reset" (rect 46 43 158 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 117 67 252 144)(font "Arial" (color 0 0 0)))
+		(text "clock_reset_reset" (rect 8 83 118 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset" (rect 117 107 264 224)(font "Arial" (color 0 0 0)))
+		(text "avalon_generator_source" (rect 209 43 556 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "ready" (rect 180 67 390 144)(font "Arial" (color 0 0 0)))
+		(text "data" (rect 187 83 398 176)(font "Arial" (color 0 0 0)))
+		(text "startofpacket" (rect 148 99 374 208)(font "Arial" (color 0 0 0)))
+		(text "endofpacket" (rect 153 115 372 240)(font "Arial" (color 0 0 0)))
+		(text "valid" (rect 185 131 400 272)(font "Arial" (color 0 0 0)))
+		(text " altera_up_avalon_video_test_pattern " (rect 204 152 630 314)(font "Arial" ))
+		(line (pt 113 52)(pt 113 76)(line_width 1))
+		(line (pt 114 52)(pt 114 76)(line_width 1))
+		(line (pt 113 92)(pt 113 116)(line_width 1))
+		(line (pt 114 92)(pt 114 116)(line_width 1))
+		(line (pt 207 52)(pt 207 140)(line_width 1))
+		(line (pt 206 52)(pt 206 140)(line_width 1))
+		(line (pt 112 32)(pt 208 32)(line_width 1))
+		(line (pt 208 32)(pt 208 152)(line_width 1))
+		(line (pt 112 152)(pt 208 152)(line_width 1))
+		(line (pt 112 32)(pt 112 152)(line_width 1))
+		(line (pt 0 0)(pt 368 0)(line_width 1))
+		(line (pt 368 0)(pt 368 168)(line_width 1))
+		(line (pt 0 168)(pt 368 168)(line_width 1))
+		(line (pt 0 0)(pt 0 168)(line_width 1))
+	)
+)

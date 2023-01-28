@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="edge_detector_ip_sim/altera_up_edge_detection_gaussian_smoothing_filter.v"
+   type="VERILOG" />
+ <file
+   path="edge_detector_ip_sim/altera_up_edge_detection_sobel_operator.v"
+   type="VERILOG" />
+ <file
+   path="edge_detector_ip_sim/altera_up_edge_detection_nonmaximum_suppression.v"
+   type="VERILOG" />
+ <file
+   path="edge_detector_ip_sim/altera_up_edge_detection_hysteresis.v"
+   type="VERILOG" />
+ <file
+   path="edge_detector_ip_sim/altera_up_edge_detection_pixel_info_shift_register.v"
+   type="VERILOG" />
+ <file
+   path="edge_detector_ip_sim/altera_up_edge_detection_data_shift_register.v"
+   type="VERILOG" />
+ <file path="edge_detector_ip_sim/edge_detector_ip.v" type="VERILOG" />
+ <topLevel name="edge_detector_ip" />
+ <deviceFamily name="cycloneii" />
+</simPackage>

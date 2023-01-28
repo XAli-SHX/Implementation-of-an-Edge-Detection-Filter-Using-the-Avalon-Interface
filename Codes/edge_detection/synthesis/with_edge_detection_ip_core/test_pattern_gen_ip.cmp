@@ -1,0 +1,12 @@
+	component test_pattern_gen_ip is
+		port (
+			clk           : in  std_logic                     := 'X'; -- clk
+			reset         : in  std_logic                     := 'X'; -- reset
+			ready         : in  std_logic                     := 'X'; -- ready
+			data          : out std_logic_vector(23 downto 0);        -- data
+			startofpacket : out std_logic;                            -- startofpacket
+			endofpacket   : out std_logic;                            -- endofpacket
+			valid         : out std_logic                             -- valid
+		);
+	end component test_pattern_gen_ip;
+

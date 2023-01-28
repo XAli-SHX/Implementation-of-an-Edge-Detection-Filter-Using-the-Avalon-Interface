@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="vga_display_cb_ip_sim/altera_up_video_128_character_rom.v"
+   type="VERILOG" />
+ <file
+   path="vga_display_cb_ip_sim/altera_up_video_fb_color_rom.v"
+   type="VERILOG" />
+ <file
+   path="vga_display_cb_ip_sim/altera_up_video_char_mode_rom_128.mif"
+   type="MIF" />
+ <file
+   path="vga_display_cb_ip_sim/altera_up_video_fb_color_rom.mif"
+   type="MIF" />
+ <file path="vga_display_cb_ip_sim/vga_display_cb_ip.v" type="VERILOG" />
+ <topLevel name="vga_display_cb_ip" />
+ <deviceFamily name="cycloneii" />
+</simPackage>

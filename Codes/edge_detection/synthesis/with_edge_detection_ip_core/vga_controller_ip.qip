@@ -1,0 +1,9 @@
+set_global_assignment -entity "vga_controller_ip" -library "vga_controller_ip" -name IP_TOOL_NAME "altera_up_avalon_video_vga_controller"
+set_global_assignment -entity "vga_controller_ip" -library "vga_controller_ip" -name IP_TOOL_VERSION "13.0sp1"
+set_global_assignment -entity "vga_controller_ip" -library "vga_controller_ip" -name IP_TOOL_ENV "mwpim"
+set_global_assignment -library "vga_controller_ip" -name MISC_FILE [file join $::quartus(qip_path) "vga_controller_ip.cmp"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+
+set_global_assignment -library "vga_controller_ip" -name VERILOG_FILE [file join $::quartus(qip_path) "vga_controller_ip.v"]
+set_global_assignment -library "vga_controller_ip" -name VERILOG_FILE [file join $::quartus(qip_path) "vga_controller_ip/altera_up_avalon_video_vga_timing.v"]
+set_global_assignment -library "vga_controller_ip" -name VERILOG_FILE [file join $::quartus(qip_path) "vga_controller_ip/vga_controller_ip_0002.v"]

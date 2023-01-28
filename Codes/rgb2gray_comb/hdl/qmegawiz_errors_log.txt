@@ -1,0 +1,11 @@
+
+
+H:/University/term7/FPGA/CA/2/Codes/edge_detection/synthesis/with_edge_detection_ip_core/vga_controller_ip.v
+
+Jan 28 04PM:04:19>: Megafunction VGA Controller v13.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+H:/University/term7/FPGA/CA/2/Codes/edge_detection/synthesis/with_edge_detection_ip_core/vga_controller_ip.v
+
+Jan 28 04PM:04:21>: Megafunction VGA Controller v13.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
