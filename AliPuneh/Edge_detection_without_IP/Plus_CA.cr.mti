@@ -1,0 +1,99 @@
+E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/EdgeDetector_MemImgAdrGen.v {1 {vlog -work work -stats=none E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/EdgeDetector_MemImgAdrGen.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EdgeDetector_MemImgAdrGen
+
+Top level modules:
+	EdgeDetector_MemImgAdrGen
+
+} {} {}} E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/EdgeDetector_tb.v {1 {vlog -work work -stats=none E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/EdgeDetector_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EdgeDetector_tb
+
+Top level modules:
+	EdgeDetector_tb
+
+} {} {}} E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/Mux2.v {1 {vlog -work work -stats=none E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/Mux2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux2
+
+Top level modules:
+	Mux2
+
+} {} {}} E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/EdgeDetector_Datapath.v {1 {vlog -work work -stats=none E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/EdgeDetector_Datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EdgeDetector_Datapath
+
+Top level modules:
+	EdgeDetector_Datapath
+
+} {} {}} E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/Counter.v {1 {vlog -work work -stats=none E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}} E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/Memory.v {1 {vlog -work work -stats=none E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/Memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/Register.v {1 {vlog -work work -stats=none E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/Register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/Abs.v {1 {vlog -work work -stats=none E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/Abs.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Abs
+
+Top level modules:
+	Abs
+
+} {} {}} E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/EdgeDetector.v {1 {vlog -work work -stats=none E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/EdgeDetector.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EdgeDetector
+
+Top level modules:
+	EdgeDetector
+
+} {} {}} E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/EdgeDetector_Kernel.v {1 {vlog -work work -stats=none E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/EdgeDetector_Kernel.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EdgeDetector_Kernel
+
+Top level modules:
+	EdgeDetector_Kernel
+
+} {} {}} E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/AnyImage_tb.v {1 {vlog -work work -stats=none E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/AnyImage_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module AnyImage_tb
+
+Top level modules:
+	AnyImage_tb
+
+} {} {}} E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/Rgb2Gray.v {1 {vlog -work work -stats=none E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/Rgb2Gray.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Rgb2Gray
+
+Top level modules:
+	Rgb2Gray
+
+} {} {}} E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/Mac.v {1 {vlog -work work -stats=none E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/Mac.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mac
+
+Top level modules:
+	Mac
+
+} {} {}} E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/EdgeDetector_Controller.v {1 {vlog -work work -stats=none E:/BSc/Term7/810180401_FPGAX/Plus_CA/Edge_detection_without_IP/EdgeDetector_Controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EdgeDetector_Controller
+
+Top level modules:
+	EdgeDetector_Controller
+
+} {} {}}
