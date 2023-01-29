@@ -18,7 +18,7 @@ module Sobel_AvalonStreaming
 
     // source
     input   wire            aso_source1_ready,
-    output  reg     [7:0]   aso_source1_data,
+    output  wire    [7:0]   aso_source1_data,
     output  reg             aso_source1_startofpacket,
     output  reg             aso_source1_endofpacket,
     output  wire            aso_source1_valid
@@ -80,7 +80,10 @@ module Sobel_AvalonStreaming
 
     // Sobel Filter Core ********************************************************************
     Sobel #(
-        KX_SIZE, KY_SIZE, IMG_X_SIZE, IMG_Y_SIZE
+        .KX_SIZE(3), 
+        .KY_SIZE(3), 
+        .IMG_X_SIZE(IMG_X_SIZE), 
+        .IMG_Y_SIZE(IMG_Y_SIZE)
     ) Sobel_core (
         .clk_i(csi_clkrst_clk), 
         .rst_i(~csi_clkrst_reset_n),
