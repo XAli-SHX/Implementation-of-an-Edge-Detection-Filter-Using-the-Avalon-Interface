@@ -14,13 +14,13 @@ module Sobel_AvalonStreaming
     input   wire            asi_sink1_startofpacket,
     input   wire            asi_sink1_endofpacket,
     input   wire            asi_sink1_valid,
-    output  wire            asi_sink1_ready,
+    output  reg             asi_sink1_ready,
 
     // source
     input   wire            aso_source1_ready,
-    output  wire    [7:0]   aso_source1_data,
-    output  wire            aso_source1_startofpacket,
-    output  wire            aso_source1_endofpacket,
+    output  reg     [7:0]   aso_source1_data,
+    output  reg             aso_source1_startofpacket,
+    output  reg             aso_source1_endofpacket,
     output  wire            aso_source1_valid
 );
 
@@ -53,14 +53,27 @@ module Sobel_AvalonStreaming
     end
 
     always @(*) begin
+        
         asi_sink1_ready = 0;
         startCore_r = 1;
+        aso_source1_startofpacket = 0;
+        aso_source1_endofpacket = 0;
+
         case (ps_r)
             GetFirstPacket: begin
                 asi_sink1_ready = 1;
+                aso_source1_endofpacket = 1;
+                if (asi_sink1_startofpacket)
+                    startCore_r = 0;
             end
             GetPackets: begin
-                
+                // no signal issues
+            end
+            CalcSobel: begin
+                // no signal issues
+            end
+            SendPackets: begin
+                aso_source1_startofpacket = 1;
             end
         endcase
     end
@@ -71,14 +84,13 @@ module Sobel_AvalonStreaming
     ) Sobel_core (
         .clk_i(csi_clkrst_clk), 
         .rst_i(~csi_clkrst_reset_n),
-        .GrayImage_i(DataCore_r),
+        .GrayImage_i(asi_sink1_data),
         .start_i(startCore_r),
         .dataAvailable_o(dataAvailableCore_r),
         .valid_o(validCore_r),
-        .ProcessedImagePixel_o(aso_source1_data)
+        .ProcessedImagePixel_o(DataCore_r)
     );
 
-    // Sobel Filter Core State Machine ******************************************************
-
+    assign aso_source1_data = DataCore_r;
 
 endmodule
