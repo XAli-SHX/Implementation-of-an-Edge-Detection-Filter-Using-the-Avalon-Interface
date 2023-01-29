@@ -5,7 +5,9 @@ import pyperclip
 def main():
     directory = os.getcwd()
     fileList = []
-    for root, dirs, files in os.walk(directory):
+    exclude = ["synthesis"]
+    for root, dirs, files in os.walk(directory, topdown=True):
+        dirs[:] = [d for d in dirs if d not in exclude]
         for filename in files:
             if root.startswith(".") or filename.startswith(".") or root.startswith("@"):
                 continue
