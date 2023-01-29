@@ -61,6 +61,11 @@ module Sobel_Datapath #(
     wire [11:0] GxPixel_w; // TODO: parameterize
     wire [11:0] GyPixel_w; // TODO: parameterize
     wire [11:0] GxPixelAbs_w, GyPixelAbs_w;
+
+    wire [11:0] MuxClearGxDataOut_w;
+    wire [G_ADR_BITS-1:0] MuxClearGxAdrOut_w;
+    wire [11:0] MuxClearGyDataOut_w;
+    wire [G_ADR_BITS-1:0] MuxClearGyAdrOut_w;
     
 
     CounterDualPort #(.X_END(KX_SIZE-1), .Y_END(KY_SIZE-1))
@@ -166,23 +171,55 @@ module Sobel_Datapath #(
         .Result_o(DataWrMemGy_w)
     );
 
+    Mux2 #(.WIDTH(12))
+      MuxClearGxData (
+        .Data0_i(DataWrMemGx_w), 
+        .Data1_i(12'd0),
+        .select_i(memGclear_i),
+        .DataOut_o(MuxClearGxDataOut_w)
+    );
+
+    Mux2 #(.WIDTH(12))
+      MuxClearGxAdr (
+        .Data0_i(MemGxyAdr_w), 
+        .Data1_i(MemImgAdr_w),
+        .select_i(memGclear_i),
+        .DataOut_o(MuxClearGxAdrOut_w)
+    );
+
     Memory #(.WORD(12), .SIZE((IMG_X_SIZE-2) * (IMG_Y_SIZE-2)))
       MemGx (
         .clk_i(clk_i),
-        .wr_i(memGwr_i),
-        .clear_i(memGclear_i),
-        .Adr_i(MemGxyAdr_w),
-        .DataWr_i(DataWrMemGx_w),
+        .wr_i((memGwr_i | memGclear_i)),
+        .clear_i(0),
+        .Adr_i(MuxClearGxAdrOut_w),
+        .DataWr_i(MuxClearGxDataOut_w),
         .DataRd_o(GxPixel_w)
+    );
+
+    Mux2 #(.WIDTH(12))
+      MuxClearGyData (
+        .Data0_i(DataWrMemGy_w), 
+        .Data1_i(12'd0),
+        .select_i(memGclear_i),
+        .DataOut_o(MuxClearGyDataOut_w)
+    );
+
+    Mux2 #(.WIDTH(12))
+      MuxClearGyAdr (
+        .Data0_i(MemGxyAdr_w), 
+        .Data1_i(MemImgAdr_w),
+        .select_i(memGclear_i),
+        .DataOut_o(MuxClearGyAdrOut_w)
     );
     
     Memory #(.WORD(12), .SIZE((IMG_X_SIZE-2) * (IMG_Y_SIZE-2)))
       MemGy (
         .clk_i(clk_i),
-        .wr_i(memGwr_i),
-        .clear_i(memGclear_i),
-        .Adr_i(MemGxyAdr_w),
-        .DataWr_i(DataWrMemGy_w),
+        .wr_i((memGwr_i | memGclear_i)),
+        .clear_i(0),
+        .Adr_i(MuxClearGyAdrOut_w),
+        .DataWr_i(MuxClearGyDataOut_w),
         .DataRd_o(GyPixel_w)
     );
 
