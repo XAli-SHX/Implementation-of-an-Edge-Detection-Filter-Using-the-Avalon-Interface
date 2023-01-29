@@ -1,4 +1,4 @@
-module EdgeDetector_Controller (
+module Sobel_Controller (
     clk_i,
     rst_i,
     start_i,

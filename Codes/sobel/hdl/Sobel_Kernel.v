@@ -1,4 +1,4 @@
-module EdgeDetector_Kernel (
+module Sobel_Kernel (
     Xindex_i, 
     Yindex_i,
     Kx_o,

@@ -1,4 +1,4 @@
-module EdgeDetector #(
+module Sobel #(
     parameter KX_SIZE = 3,
               KY_SIZE = 3,
               IMG_X_SIZE = 100,
@@ -23,12 +23,12 @@ module EdgeDetector #(
         memGwr_w, cntrMemGinc_w, dataAvailable_w, inputRecieved_o, 
         kernelResReady_o, imageProcessed_o, outputSent_o;
 
-    EdgeDetector_Datapath #(
+    Sobel_Datapath #(
         .KX_SIZE(KX_SIZE),
         .KY_SIZE(KY_SIZE),
         .IMG_X_SIZE(IMG_X_SIZE),
         .IMG_Y_SIZE(IMG_Y_SIZE)
-    ) EdgeDetector_DP (
+    ) Sobel_DP (
         .clk_i(clk_i),
         .rst_i(rst_i),
         .GrayImg_i(GrayImage_i),
@@ -50,7 +50,7 @@ module EdgeDetector #(
         .ProcessedImagePixel_o(ProcessedImagePixel_o)
     );
 
-    EdgeDetector_Controller EdgeDetector_CU (
+    Sobel_Controller Sobel_CU (
         .clk_i(clk_i),
         .rst_i(rst_i),
         .start_i(start_i),

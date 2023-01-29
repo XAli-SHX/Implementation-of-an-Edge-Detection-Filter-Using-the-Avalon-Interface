@@ -1,4 +1,4 @@
-module EdgeDetector_Datapath #(
+module Sobel_Datapath #(
     parameter KX_SIZE = 3,
               KY_SIZE = 3,
               IMG_X_SIZE = 100,
@@ -119,7 +119,7 @@ module EdgeDetector_Datapath #(
         .DataOut_o(MemImgyAdr_w)
     );
 
-    EdgeDetector_MemImgAdrGen #(.X_SIZE(IMG_X_SIZE), .Y_SIZE(IMG_Y_SIZE))
+    Sobel_MemImgAdrGen #(.X_SIZE(IMG_X_SIZE), .Y_SIZE(IMG_Y_SIZE))
       MemImgAdrGen (
         .X_i(MemImgxAdr_w), 
         .Y_i(MemImgyAdr_w),
@@ -136,14 +136,14 @@ module EdgeDetector_Datapath #(
         .DataRd_o(ImgPixel_w)
     );
 
-    EdgeDetector_Kernel KernelXY (
+    Sobel_Kernel KernelXY (
         .Xindex_i(KxIndex_w), 
         .Yindex_i(KyIndex_w),
         .Kx_o(Kx_w),
         .Ky_o(Ky_w)
     );
 
-    EdgeDetector_MemImgAdrGen #(.X_SIZE(IMG_X_SIZE-2), .Y_SIZE(IMG_Y_SIZE-2))
+    Sobel_MemImgAdrGen #(.X_SIZE(IMG_X_SIZE-2), .Y_SIZE(IMG_Y_SIZE-2))
       MemGxyAdrGen (
         .X_i(GxIndex_w), 
         .Y_i(GyIndex_w),

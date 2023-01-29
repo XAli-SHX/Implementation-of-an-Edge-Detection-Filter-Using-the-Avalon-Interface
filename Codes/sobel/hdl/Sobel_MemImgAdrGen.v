@@ -1,4 +1,4 @@
-module EdgeDetector_MemImgAdrGen #(
+module Sobel_MemImgAdrGen #(
     parameter X_SIZE = 100, 
               Y_SIZE = 100
 )(
