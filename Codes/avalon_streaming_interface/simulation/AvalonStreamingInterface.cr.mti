@@ -1,8 +1,127 @@
-H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v
+H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Rgb2Gray
+
+Top level modules:
+	Rgb2Gray
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_Datapath.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_Datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Sobel_Datapath
+
+Top level modules:
+	Sobel_Datapath
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/sobel/test/EdgeDetector_tb.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/sobel/test/EdgeDetector_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module EdgeDetector_tb
+
+Top level modules:
+	EdgeDetector_tb
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Sobel_Controller.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Sobel_Controller.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Sobel_Controller
+
+Top level modules:
+	Sobel_Controller
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Rgb2Gray_AvalonStreaming
 
 Top level modules:
 	Rgb2Gray_AvalonStreaming
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CounterDualPort
+
+Top level modules:
+	CounterDualPort
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Abs.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Abs.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Abs
+
+Top level modules:
+	Abs
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CounterDualPort_tb
+
+Top level modules:
+	CounterDualPort_tb
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Sobel_AvalonStreaming.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Sobel_AvalonStreaming.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Sobel_AvalonStreaming
+
+Top level modules:
+	Sobel_AvalonStreaming
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Mac
+
+Top level modules:
+	Mac
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Sobel
+
+Top level modules:
+	Sobel
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_Kernel.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_Kernel.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Sobel_Kernel
+
+Top level modules:
+	Sobel_Kernel
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Rgb2Gray_Controller
+
+Top level modules:
+	Rgb2Gray_Controller
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Mux2
+
+Top level modules:
+	Mux2
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Rgb2Gray_Datapath
+
+Top level modules:
+	Rgb2Gray_Datapath
+
+} {} {}} H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_MemImgAdrGen.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_MemImgAdrGen.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Sobel_MemImgAdrGen
+
+Top level modules:
+	Sobel_MemImgAdrGen
 
 } {} {}}

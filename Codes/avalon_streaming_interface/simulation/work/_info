@@ -3,23 +3,363 @@ K3
 13
 cModel Technology
 Z0 dH:\University\term7\FPGA\CA\2\Codes\edge_detection\simulation
-vRgb2Gray_AvalonStreaming
-!i10b 1
-!s100 4j7eZ0Q5gbAWjINK6<U`[1
-Ib]fDFV677zM=g;_AILC?>3
-V_OC0:lgV;I?Ph[?o=B<d91
-dH:\University\term7\FPGA\CA\2\Codes\avalon_streaming_interface\simulation
-w1674981140
-8H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v
-FH:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v
+vAbs
+Z1 !s100 camG[f>?4fg<0gOf41HVI0
+Z2 IGFND8He<[28?dOgOb[EDU2
+Z3 VS51NYO`igCjeL]o4V;1Dk3
+Z4 dH:\University\term7\FPGA\CA\2\Codes\avalon_streaming_interface\simulation
+Z5 w1674748098
+Z6 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Abs.v
+Z7 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Abs.v
 L0 1
-OV;L;10.1d;51
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Abs.v|
+Z10 o-work work -O0
+n@abs
+Z11 !s108 1675020831.029000
+Z12 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Abs.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCounterDualPort
+Z13 !s100 iKF<S7Omb5XU97dWT9J;83
+Z14 IDBC2W;NYLYH<Q7aEo]UDQ3
+Z15 Vbb[7V2TcRkIR8hIJ<m52S0
+R4
+Z16 w1674858096
+Z17 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v
+Z18 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v
+L0 1
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v|
+R10
+Z20 n@counter@dual@port
+Z21 !s108 1675020830.603000
+Z22 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/CounterDualPort.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCounterDualPort_tb
+Z23 !s100 8DS1NOFQi02C03;`UaIgm0
+Z24 IAA6oCNenB_cjeW^z=FOei0
+Z25 V<L_o@YTOn8?IHb^K?[>on0
+R4
+Z26 w1674734280
+Z27 8H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v
+Z28 FH:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v
+L0 1
+R8
+r1
+31
+Z29 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v|
+R10
+Z30 n@counter@dual@port_tb
+!i10b 1
+!s85 0
+Z31 !s108 1675020831.149000
+Z32 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/test/CounterDualPort_tb.v|
+!s101 -O0
+vEdgeDetector_tb
+Z33 !s100 XCI`MX:dRXWlTL>W4F[IB3
+Z34 I<T^3FmE=jHCY::[=6W;7E1
+Z35 VZ[oEA5^dZh2Sk>JMnViVa0
+R4
+Z36 w1674854560
+Z37 8H:/University/term7/FPGA/CA/2/Codes/sobel/test/EdgeDetector_tb.v
+Z38 FH:/University/term7/FPGA/CA/2/Codes/sobel/test/EdgeDetector_tb.v
+L0 1
+R8
+r1
+31
+Z39 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/sobel/test/EdgeDetector_tb.v|
+R10
+Z40 n@edge@detector_tb
+Z41 !s108 1675020830.049000
+Z42 !s107 H:/University/term7/FPGA/CA/2/Codes/sobel/test/EdgeDetector_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMac
+Z43 !s100 =9jLKnZAY4nmNi`jFKoSM1
+Z44 I0F4Z7nUIR2_e>@:DgRfl92
+Z45 V_WnVJle3_RFlF82[l@CnS3
+R4
+Z46 w1674859892
+Z47 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v
+Z48 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v
+L0 1
+R8
+r1
+31
+Z49 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v|
+R10
+n@mac
+Z50 !s108 1675020830.778000
+Z51 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mac.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMemory
+Z52 !s100 <ofS]d_;W`o?iXPzZ5VEL0
+Z53 I@j5Z4K8BQmm0EYgaaEI]h0
+Z54 V8SPD:Ok_3jO^nNF;L:IXK3
+R4
+Z55 w1674859502
+Z56 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v
+Z57 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v
+L0 1
+R8
+r1
+31
+Z58 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v|
+R10
+Z59 n@memory
+Z60 !s108 1675020830.896000
+Z61 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Memory.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMux2
+Z62 !s100 T;G6Ia1CjRYdH?h90lXhh2
+Z63 I5CG2]gUiN;_o@JnFSOk2T0
+Z64 VS^IVAT;EjjZcSc3XSi@P00
+R4
+Z65 w1674735072
+Z66 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v
+Z67 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v
+L0 1
+R8
+r1
+31
+Z68 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v|
+R10
+Z69 n@mux2
+Z70 !s108 1675020830.693000
+Z71 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Mux2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegister
+Z72 !s100 _gX1^O0PkeloQO?`Cof=T0
+Z73 Ik?N`g2YAfSNzAIbi0mi@V3
+Z74 VJgORYWRECNT5LiP4;Hzc11
+R4
+Z75 w1674568710
+Z76 8H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v
+Z77 FH:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v
+L0 1
+R8
+r1
+31
+Z78 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v|
+R10
+Z79 n@register
+Z80 !s108 1675020830.514000
+Z81 !s107 H:/University/term7/FPGA/CA/2/Codes/utils/hdl/Register.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRgb2Gray
+!i10b 1
+Z82 !s100 Q9KLgZliSQEH;I3SL1K590
+Z83 IHX]BO`D0f=mhZYDOJ2T@N3
+Z84 V`7z04D:>:ST]XnG0C;c1]1
+R4
+Z85 w1674659766
+Z86 8H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v
+Z87 FH:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v
+L0 1
+R8
 r1
 !s85 0
 31
-!s108 1674981142.763000
-!s107 H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v|
-!s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v|
+!s108 1675020831.239000
+!s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v|
+Z88 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_comb/hdl/Rgb2Gray.v|
 !s101 -O0
-o-work work -O0
-n@rgb2@gray_@avalon@streaming
+R10
+Z89 n@rgb2@gray
+vRgb2Gray_AvalonStreaming
+Z90 !s100 4j7eZ0Q5gbAWjINK6<U`[1
+Z91 Ib]fDFV677zM=g;_AILC?>3
+Z92 V_OC0:lgV;I?Ph[?o=B<d91
+R4
+Z93 w1674981140
+Z94 8H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v
+Z95 FH:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v
+L0 1
+R8
+r1
+31
+Z96 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v|
+R10
+Z97 n@rgb2@gray_@avalon@streaming
+Z98 !s108 1675020830.149000
+Z99 !s107 H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRgb2Gray_Controller
+Z100 !s100 XQWOC5EWAdP[DAHY`QozM3
+Z101 I6>6RF8^5n8I_c8A_G1CQ23
+Z102 VSz>ofCPB0FJaJ4GLZWPPe1
+R4
+Z103 w1674567808
+Z104 8H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v
+Z105 FH:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v
+L0 1
+R8
+r1
+31
+Z106 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v|
+R10
+Z107 n@rgb2@gray_@controller
+Z108 !s108 1675020829.559000
+Z109 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Controller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRgb2Gray_Datapath
+Z110 !s100 W5z?j8hMmEROj6VCPnNCM2
+Z111 I^h[@A7H`]]>MZJ2QJV`aY3
+Z112 V?zC3?bVbF<>ZWH]dhJ5if2
+R4
+Z113 w1674661670
+Z114 8H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v
+Z115 FH:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v
+L0 1
+R8
+r1
+31
+Z116 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v|
+R10
+Z117 n@rgb2@gray_@datapath
+Z118 !s108 1675020829.461000
+Z119 !s107 H:/University/term7/FPGA/CA/2/Codes/rgb2gray_seq/hdl/Rgb2Gray_Datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSobel
+Z120 !s100 HBi91FajI453KWX[P6Oj=3
+Z121 IH1Uln;JP2EcbVef6df]:D1
+Z122 V:OO?RC4V@H9Y=bU7TH`VG1
+R4
+Z123 w1674988530
+Z124 8H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel.v
+Z125 FH:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel.v
+L0 1
+R8
+r1
+31
+Z126 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel.v|
+R10
+Z127 n@sobel
+Z128 !s108 1675020829.767000
+Z129 !s107 H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSobel_AvalonStreaming
+Z130 I8:?<;j7TS0gB9=^6Lm=V>0
+Z131 V<3n<ameh6PNPgIdmPC1@Z2
+R4
+Z132 w1675020828
+Z133 8H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Sobel_AvalonStreaming.v
+Z134 FH:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Sobel_AvalonStreaming.v
+L0 1
+R8
+r1
+31
+R10
+Z135 n@sobel_@avalon@streaming
+Z136 !s100 E`HMOb1`8N]iWRVL<:Z`z2
+Z137 !s108 1675020830.350000
+Z138 !s107 H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Sobel_AvalonStreaming.v|
+Z139 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Sobel_AvalonStreaming.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSobel_Controller
+Z140 !s100 Ie;gCC9f8j[;X9m`F5:EW1
+Z141 I;NQEH@WF_W]_Om[F?IAQ=0
+Z142 VQ2Aj`z>6OGiG=P:?k]:nJ3
+R4
+Z143 w1674988494
+Z144 8H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Sobel_Controller.v
+Z145 FH:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Sobel_Controller.v
+L0 1
+R8
+r1
+31
+Z146 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Sobel_Controller.v|
+R10
+Z147 n@sobel_@controller
+Z148 !s108 1675020830.255000
+Z149 !s107 H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Sobel_Controller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSobel_Datapath
+Z150 !s100 URVCCN_A9[0504FIBYhDY0
+Z151 ITOAFa@LePfg570Pi1cCkJ1
+Z152 VRWlB=BPF`bfliQO6Kf<z61
+R4
+Z153 w1674988508
+Z154 8H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_Datapath.v
+Z155 FH:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_Datapath.v
+L0 1
+R8
+r1
+31
+Z156 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_Datapath.v|
+R10
+Z157 n@sobel_@datapath
+Z158 !s108 1675020829.670000
+Z159 !s107 H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_Datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSobel_Kernel
+Z160 !s100 dg_6NEJ3UQWL1Ndj=:h8`1
+Z161 Ij;AB4;<SMX8Yz@QBVSW8D1
+Z162 VcgdzcgSZnb1@bg>SF35Lm3
+R4
+Z163 w1674988514
+Z164 8H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_Kernel.v
+Z165 FH:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_Kernel.v
+L0 1
+R8
+r1
+31
+Z166 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_Kernel.v|
+R10
+Z167 n@sobel_@kernel
+Z168 !s108 1675020829.951000
+Z169 !s107 H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_Kernel.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSobel_MemImgAdrGen
+Z170 !s100 KC_0OnWa1jBYCMDbl9=iB0
+Z171 I>P6eDI@zTMQnaokY`O>cQ3
+Z172 V>dLk?OIANkN?6RmS]Nk5A3
+R4
+Z173 w1674988522
+Z174 8H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_MemImgAdrGen.v
+Z175 FH:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_MemImgAdrGen.v
+L0 1
+R8
+r1
+31
+Z176 !s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_MemImgAdrGen.v|
+R10
+Z177 n@sobel_@mem@img@adr@gen
+Z178 !s108 1675020829.860000
+Z179 !s107 H:/University/term7/FPGA/CA/2/Codes/sobel/hdl/Sobel_MemImgAdrGen.v|
+!i10b 1
+!s85 0
+!s101 -O0
