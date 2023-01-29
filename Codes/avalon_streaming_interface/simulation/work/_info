@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\University\term7\FPGA\CA\2\Codes\edge_detection\simulation
+vRgb2Gray_AvalonStreaming
+!i10b 1
+!s100 4j7eZ0Q5gbAWjINK6<U`[1
+Ib]fDFV677zM=g;_AILC?>3
+V_OC0:lgV;I?Ph[?o=B<d91
+dH:\University\term7\FPGA\CA\2\Codes\avalon_streaming_interface\simulation
+w1674981140
+8H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v
+FH:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1674981142.763000
+!s107 H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v|
+!s90 -reportprogress|300|-work|work|H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v|
+!s101 -O0
+o-work work -O0
+n@rgb2@gray_@avalon@streaming

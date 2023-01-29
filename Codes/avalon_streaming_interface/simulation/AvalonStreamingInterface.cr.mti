@@ -1,0 +1,8 @@
+H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/hdl/Rgb2Gray_AvalonStreaming.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Rgb2Gray_AvalonStreaming
+
+Top level modules:
+	Rgb2Gray_AvalonStreaming
+
+} {} {}}

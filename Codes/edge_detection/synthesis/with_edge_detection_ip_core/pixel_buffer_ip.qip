@@ -1,8 +1,0 @@
-set_global_assignment -entity "pixel_buffer_ip" -library "pixel_buffer_ip" -name IP_TOOL_NAME "altera_up_avalon_video_pixel_buffer_dma"
-set_global_assignment -entity "pixel_buffer_ip" -library "pixel_buffer_ip" -name IP_TOOL_VERSION "13.0sp1"
-set_global_assignment -entity "pixel_buffer_ip" -library "pixel_buffer_ip" -name IP_TOOL_ENV "mwpim"
-set_global_assignment -library "pixel_buffer_ip" -name MISC_FILE [file join $::quartus(qip_path) "pixel_buffer_ip.cmp"]
-set_global_assignment -name SYNTHESIS_ONLY_QIP ON
-
-set_global_assignment -library "pixel_buffer_ip" -name VERILOG_FILE [file join $::quartus(qip_path) "pixel_buffer_ip.v"]
-set_global_assignment -library "pixel_buffer_ip" -name VERILOG_FILE [file join $::quartus(qip_path) "pixel_buffer_ip/pixel_buffer_ip_0002.v"]

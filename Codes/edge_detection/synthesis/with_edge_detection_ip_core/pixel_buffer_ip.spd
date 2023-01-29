@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<simPackage>
- <file path="pixel_buffer_ip_sim/pixel_buffer_ip.v" type="VERILOG" />
- <topLevel name="pixel_buffer_ip" />
- <deviceFamily name="cycloneii" />
-</simPackage>

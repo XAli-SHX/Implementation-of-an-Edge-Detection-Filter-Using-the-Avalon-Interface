@@ -1,0 +1,288 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/with_edge_detection_ip_core/DE2_Media_Computer/verilog/ --output-directory=H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/with_edge_detection_ip_core/DE2_Media_Computer/verilog/nios_system/ --report-file=bsf:H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/with_edge_detection_ip_core/DE2_Media_Computer/verilog/nios_system.bsf --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C35F672C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/with_edge_detection_ip_core/DE2_Media_Computer/verilog/nios_system.qsys
+Progress: Loading verilog/nios_system.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 13.0]
+Progress: Parameterizing module clk
+Progress: Adding JTAG_UART [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module JTAG_UART
+Progress: Adding Interval_Timer [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module Interval_Timer
+Progress: Adding SDRAM [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module SDRAM
+Progress: Adding Red_LEDs [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Red_LEDs
+Progress: Adding Green_LEDs [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Green_LEDs
+Progress: Adding HEX3_HEX0 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX3_HEX0
+Progress: Adding HEX7_HEX4 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX7_HEX4
+Progress: Adding Slider_Switches [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Slider_Switches
+Progress: Adding Pushbuttons [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Pushbuttons
+Progress: Adding Expansion_JP1 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Expansion_JP1
+Progress: Adding Expansion_JP2 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Expansion_JP2
+Progress: Adding Serial_Port [altera_up_avalon_rs232 13.0]
+Progress: Parameterizing module Serial_Port
+Progress: Adding AV_Config [altera_up_avalon_audio_and_video_config 13.0]
+Progress: Parameterizing module AV_Config
+Progress: Adding Audio [altera_up_avalon_audio 13.0]
+Progress: Parameterizing module Audio
+Progress: Adding Char_LCD_16x2 [altera_up_avalon_character_lcd 13.0]
+Progress: Parameterizing module Char_LCD_16x2
+Progress: Adding PS2_Port [altera_up_avalon_ps2 13.0]
+Progress: Parameterizing module PS2_Port
+Progress: Adding SRAM [altera_up_avalon_sram 13.0]
+Progress: Parameterizing module SRAM
+Progress: Adding VGA_Pixel_Buffer [altera_up_avalon_video_pixel_buffer_dma 13.0]
+Progress: Parameterizing module VGA_Pixel_Buffer
+Progress: Adding VGA_Char_Buffer [altera_up_avalon_video_character_buffer_with_dma 13.0]
+Progress: Parameterizing module VGA_Char_Buffer
+Progress: Adding VGA_Controller [altera_up_avalon_video_vga_controller 13.0]
+Progress: Parameterizing module VGA_Controller
+Progress: Adding VGA_Pixel_RGB_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module VGA_Pixel_RGB_Resampler
+Progress: Adding VGA_Pixel_Scaler [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module VGA_Pixel_Scaler
+Progress: Adding VGA_Dual_Clock_FIFO [altera_up_avalon_video_dual_clock_buffer 13.0]
+Progress: Parameterizing module VGA_Dual_Clock_FIFO
+Progress: Adding CPU_fpoint [altera_nios_custom_instr_floating_point 13.0]
+Progress: Parameterizing module CPU_fpoint
+Progress: Adding clk_27 [clock_source 13.0]
+Progress: Parameterizing module clk_27
+Progress: Adding Alpha_Blending [altera_up_avalon_video_alpha_blender 13.0]
+Progress: Parameterizing module Alpha_Blending
+Progress: Adding CPU [altera_nios2_qsys 13.0]
+Progress: Parameterizing module CPU
+Progress: Adding sysid [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid
+Progress: Adding merged_resets [altera_reset_bridge 13.0]
+Progress: Parameterizing module merged_resets
+Progress: Adding sys_clk [altera_clock_bridge 13.0]
+Progress: Parameterizing module sys_clk
+Progress: Adding vga_clk [altera_clock_bridge 13.0]
+Progress: Parameterizing module vga_clk
+Progress: Adding External_Clocks [altera_up_clocks 13.0]
+Progress: Parameterizing module External_Clocks
+Progress: Adding SD_Card [Altera_UP_SD_Card_Avalon_Interface 13.0]
+Progress: Parameterizing module SD_Card
+Progress: Adding Flash [Altera_UP_Flash_Memory_IP_Core_Avalon_Interface 13.0]
+Progress: Parameterizing module Flash
+Progress: Adding IrDA_UART [altera_up_avalon_irda 13.0]
+Progress: Parameterizing module IrDA_UART
+Progress: Adding Video_In [altera_up_avalon_video_decoder 13.0]
+Progress: Parameterizing module Video_In
+Progress: Adding Video_In_Chroma_Resampler [altera_up_avalon_video_chroma_resampler 13.0]
+Progress: Parameterizing module Video_In_Chroma_Resampler
+Progress: Adding Video_In_CSC [altera_up_avalon_video_csc 13.0]
+Progress: Parameterizing module Video_In_CSC
+Progress: Adding Video_In_RBG_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module Video_In_RBG_Resampler
+Progress: Adding Video_In_Clipper [altera_up_avalon_video_clipper 13.0]
+Progress: Parameterizing module Video_In_Clipper
+Progress: Adding Video_In_Scaler [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module Video_In_Scaler
+Progress: Adding Video_In_DMA_Controller [altera_up_avalon_video_dma_controller 13.0]
+Progress: Parameterizing module Video_In_DMA_Controller
+Progress: Adding Ethernet [altera_up_avalon_ethernet 13.0]
+Progress: Parameterizing module Ethernet
+Progress: Adding USB [altera_up_avalon_usb 13.0]
+Progress: Parameterizing module USB
+Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 13.0]
+Progress: Parameterizing module video_test_pattern_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_system.VGA_Controller: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes)
+Info: nios_system.VGA_Pixel_RGB_Resampler: RGB Resampling: 8 (bits) x 3 (planes) -> 10 (bits) x 3 (planes)
+Info: nios_system.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_system.sysid: Time stamp will be automatically updated when this component is generated.
+Info: nios_system.Video_In: Video In Stream: Format: 720 x 244 (Odd Frames) or 720 x 243 (Even Frames) with Colour: 8 (bits) x 2 (planes) (YCrCb 4:2:2)
+Info: nios_system.Video_In_Chroma_Resampler: Chroma Resampling: 8 (bits) x 2 (planes) -> 8 (bits) x 3 (planes)
+Info: nios_system.Video_In_CSC: Colour Space Conversion: 8 (bits) x 3 (planes) (444 YCrCb) -> 8 (bits) x 3 (planes) (24-bit RGB)
+Info: nios_system.Video_In_RBG_Resampler: RGB Resampling: 8 (bits) x 3 (planes) -> 16 (bits) x 1 (planes)
+Info: nios_system.Video_In_Clipper: Change in Resolution: 720 x 244 -> 640 x 240
+Info: nios_system.Video_In_Scaler: Change in Resolution: 640 x 240 -> 320 x 240
+Warning: nios_system.AV_Config: AV_Config.avalon_av_config_slave must be connected to an Avalon-MM master
+Warning: nios_system.Audio: Audio.avalon_audio_slave must be connected to an Avalon-MM master
+Warning: nios_system.Char_LCD_16x2: Char_LCD_16x2.avalon_lcd_slave must be connected to an Avalon-MM master
+Warning: nios_system.VGA_Pixel_Buffer: VGA_Pixel_Buffer.avalon_pixel_dma_master must be connected to an Avalon-MM slave
+Warning: nios_system.VGA_Pixel_Buffer: VGA_Pixel_Buffer.avalon_control_slave must be connected to an Avalon-MM master
+Warning: nios_system.sysid: sysid.control_slave must be connected to an Avalon-MM master
+Warning: nios_system.Video_In_DMA_Controller: Video_In_DMA_Controller.avalon_dma_control_slave must be connected to an Avalon-MM master
+Warning: nios_system.Video_In_DMA_Controller: Video_In_DMA_Controller.avalon_dma_master must be connected to an Avalon-MM slave
+Warning: nios_system.VGA_Pixel_Buffer.avalon_pixel_source: VGA_Pixel_Buffer.avalon_pixel_source must be connected to an Avalon-ST sink
+Warning: nios_system.Audio: Interrupt sender Audio.interrupt is not connected to an interrupt receiver
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/with_edge_detection_ip_core/DE2_Media_Computer/verilog/ --output-directory=H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/with_edge_detection_ip_core/DE2_Media_Computer/verilog/nios_system/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/with_edge_detection_ip_core/DE2_Media_Computer/verilog/nios_system.sopcinfo --report-file=html:H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/with_edge_detection_ip_core/DE2_Media_Computer/verilog/nios_system.html --report-file=qip:H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/with_edge_detection_ip_core/DE2_Media_Computer/verilog/nios_system/synthesis/nios_system.qip --report-file=cmp:H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/with_edge_detection_ip_core/DE2_Media_Computer/verilog/nios_system.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C35F672C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/with_edge_detection_ip_core/DE2_Media_Computer/verilog/nios_system.qsys --language=VERILOG
+Progress: Loading verilog/nios_system.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 13.0]
+Progress: Parameterizing module clk
+Progress: Adding JTAG_UART [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module JTAG_UART
+Progress: Adding Interval_Timer [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module Interval_Timer
+Progress: Adding SDRAM [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module SDRAM
+Progress: Adding Red_LEDs [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Red_LEDs
+Progress: Adding Green_LEDs [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Green_LEDs
+Progress: Adding HEX3_HEX0 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX3_HEX0
+Progress: Adding HEX7_HEX4 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX7_HEX4
+Progress: Adding Slider_Switches [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Slider_Switches
+Progress: Adding Pushbuttons [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Pushbuttons
+Progress: Adding Expansion_JP1 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Expansion_JP1
+Progress: Adding Expansion_JP2 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Expansion_JP2
+Progress: Adding Serial_Port [altera_up_avalon_rs232 13.0]
+Progress: Parameterizing module Serial_Port
+Progress: Adding AV_Config [altera_up_avalon_audio_and_video_config 13.0]
+Progress: Parameterizing module AV_Config
+Progress: Adding Audio [altera_up_avalon_audio 13.0]
+Progress: Parameterizing module Audio
+Progress: Adding Char_LCD_16x2 [altera_up_avalon_character_lcd 13.0]
+Progress: Parameterizing module Char_LCD_16x2
+Progress: Adding PS2_Port [altera_up_avalon_ps2 13.0]
+Progress: Parameterizing module PS2_Port
+Progress: Adding SRAM [altera_up_avalon_sram 13.0]
+Progress: Parameterizing module SRAM
+Progress: Adding VGA_Pixel_Buffer [altera_up_avalon_video_pixel_buffer_dma 13.0]
+Progress: Parameterizing module VGA_Pixel_Buffer
+Progress: Adding VGA_Char_Buffer [altera_up_avalon_video_character_buffer_with_dma 13.0]
+Progress: Parameterizing module VGA_Char_Buffer
+Progress: Adding VGA_Controller [altera_up_avalon_video_vga_controller 13.0]
+Progress: Parameterizing module VGA_Controller
+Progress: Adding VGA_Pixel_RGB_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module VGA_Pixel_RGB_Resampler
+Progress: Adding VGA_Pixel_Scaler [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module VGA_Pixel_Scaler
+Progress: Adding VGA_Dual_Clock_FIFO [altera_up_avalon_video_dual_clock_buffer 13.0]
+Progress: Parameterizing module VGA_Dual_Clock_FIFO
+Progress: Adding CPU_fpoint [altera_nios_custom_instr_floating_point 13.0]
+Progress: Parameterizing module CPU_fpoint
+Progress: Adding clk_27 [clock_source 13.0]
+Progress: Parameterizing module clk_27
+Progress: Adding Alpha_Blending [altera_up_avalon_video_alpha_blender 13.0]
+Progress: Parameterizing module Alpha_Blending
+Progress: Adding CPU [altera_nios2_qsys 13.0]
+Progress: Parameterizing module CPU
+Progress: Adding sysid [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid
+Progress: Adding merged_resets [altera_reset_bridge 13.0]
+Progress: Parameterizing module merged_resets
+Progress: Adding sys_clk [altera_clock_bridge 13.0]
+Progress: Parameterizing module sys_clk
+Progress: Adding vga_clk [altera_clock_bridge 13.0]
+Progress: Parameterizing module vga_clk
+Progress: Adding External_Clocks [altera_up_clocks 13.0]
+Progress: Parameterizing module External_Clocks
+Progress: Adding SD_Card [Altera_UP_SD_Card_Avalon_Interface 13.0]
+Progress: Parameterizing module SD_Card
+Progress: Adding Flash [Altera_UP_Flash_Memory_IP_Core_Avalon_Interface 13.0]
+Progress: Parameterizing module Flash
+Progress: Adding IrDA_UART [altera_up_avalon_irda 13.0]
+Progress: Parameterizing module IrDA_UART
+Progress: Adding Video_In [altera_up_avalon_video_decoder 13.0]
+Progress: Parameterizing module Video_In
+Progress: Adding Video_In_Chroma_Resampler [altera_up_avalon_video_chroma_resampler 13.0]
+Progress: Parameterizing module Video_In_Chroma_Resampler
+Progress: Adding Video_In_CSC [altera_up_avalon_video_csc 13.0]
+Progress: Parameterizing module Video_In_CSC
+Progress: Adding Video_In_RBG_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module Video_In_RBG_Resampler
+Progress: Adding Video_In_Clipper [altera_up_avalon_video_clipper 13.0]
+Progress: Parameterizing module Video_In_Clipper
+Progress: Adding Video_In_Scaler [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module Video_In_Scaler
+Progress: Adding Video_In_DMA_Controller [altera_up_avalon_video_dma_controller 13.0]
+Progress: Parameterizing module Video_In_DMA_Controller
+Progress: Adding Ethernet [altera_up_avalon_ethernet 13.0]
+Progress: Parameterizing module Ethernet
+Progress: Adding USB [altera_up_avalon_usb 13.0]
+Progress: Parameterizing module USB
+Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 13.0]
+Progress: Parameterizing module video_test_pattern_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_system.VGA_Controller: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes)
+Info: nios_system.VGA_Pixel_RGB_Resampler: RGB Resampling: 8 (bits) x 3 (planes) -> 10 (bits) x 3 (planes)
+Info: nios_system.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_system.sysid: Time stamp will be automatically updated when this component is generated.
+Info: nios_system.Video_In: Video In Stream: Format: 720 x 244 (Odd Frames) or 720 x 243 (Even Frames) with Colour: 8 (bits) x 2 (planes) (YCrCb 4:2:2)
+Info: nios_system.Video_In_Chroma_Resampler: Chroma Resampling: 8 (bits) x 2 (planes) -> 8 (bits) x 3 (planes)
+Info: nios_system.Video_In_CSC: Colour Space Conversion: 8 (bits) x 3 (planes) (444 YCrCb) -> 8 (bits) x 3 (planes) (24-bit RGB)
+Info: nios_system.Video_In_RBG_Resampler: RGB Resampling: 8 (bits) x 3 (planes) -> 16 (bits) x 1 (planes)
+Info: nios_system.Video_In_Clipper: Change in Resolution: 720 x 244 -> 640 x 240
+Info: nios_system.Video_In_Scaler: Change in Resolution: 640 x 240 -> 320 x 240
+Warning: nios_system.AV_Config: AV_Config.avalon_av_config_slave must be connected to an Avalon-MM master
+Warning: nios_system.Audio: Audio.avalon_audio_slave must be connected to an Avalon-MM master
+Warning: nios_system.Char_LCD_16x2: Char_LCD_16x2.avalon_lcd_slave must be connected to an Avalon-MM master
+Warning: nios_system.VGA_Pixel_Buffer: VGA_Pixel_Buffer.avalon_pixel_dma_master must be connected to an Avalon-MM slave
+Warning: nios_system.VGA_Pixel_Buffer: VGA_Pixel_Buffer.avalon_control_slave must be connected to an Avalon-MM master
+Warning: nios_system.sysid: sysid.control_slave must be connected to an Avalon-MM master
+Warning: nios_system.Video_In_DMA_Controller: Video_In_DMA_Controller.avalon_dma_control_slave must be connected to an Avalon-MM master
+Warning: nios_system.Video_In_DMA_Controller: Video_In_DMA_Controller.avalon_dma_master must be connected to an Avalon-MM slave
+Warning: nios_system.VGA_Pixel_Buffer.avalon_pixel_source: VGA_Pixel_Buffer.avalon_pixel_source must be connected to an Avalon-ST sink
+Warning: nios_system.Audio: Interrupt sender Audio.interrupt is not connected to an interrupt receiver
+Info: nios_system: Generating nios_system "nios_system" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 23 modules, 65 connections
+Info: No custom instruction connections, skipping transform 
+Info: No Avalon connections, skipping transform 
+Info: merlin_translator_transform: After transform: 23 modules, 65 connections
+Info: reset_adaptation_transform: After transform: 26 modules, 57 connections
+Info: merlin_mm_transform: After transform: 26 modules, 57 connections
+Info: AV_Config: Starting Generation of Audio and Video Config
+Info: AV_Config: "nios_system" instantiated altera_up_avalon_audio_and_video_config "AV_Config"
+Info: Audio: Starting Generation of Audio Controller
+Info: Audio: "nios_system" instantiated altera_up_avalon_audio "Audio"
+Info: Char_LCD_16x2: Starting Generation of Character LCD
+Info: Char_LCD_16x2: "nios_system" instantiated altera_up_avalon_character_lcd "Char_LCD_16x2"
+Info: VGA_Pixel_Buffer: Starting Generation of VGA Pixel Buffer
+Info: VGA_Pixel_Buffer: "nios_system" instantiated altera_up_avalon_video_pixel_buffer_dma "VGA_Pixel_Buffer"
+Info: VGA_Controller: Starting Generation of VGA Controller
+Info: VGA_Controller: "nios_system" instantiated altera_up_avalon_video_vga_controller "VGA_Controller"
+Info: VGA_Pixel_RGB_Resampler: Starting Generation of Video RGB Resampler
+Info: VGA_Pixel_RGB_Resampler: "nios_system" instantiated altera_up_avalon_video_rgb_resampler "VGA_Pixel_RGB_Resampler"
+Info: VGA_Dual_Clock_FIFO: Starting Generation of the Dual Clock Buffer
+Info: VGA_Dual_Clock_FIFO: "nios_system" instantiated altera_up_avalon_video_dual_clock_buffer "VGA_Dual_Clock_FIFO"
+Info: CPU_fpoint: "nios_system" instantiated altera_nios_custom_instr_floating_point "CPU_fpoint"
+Info: sysid: "nios_system" instantiated altera_avalon_sysid_qsys "sysid"
+Info: External_Clocks: Starting Generation of Required Clocks for DE-Series Boards
+Info: External_Clocks: "nios_system" instantiated altera_up_clocks "External_Clocks"
+Info: Video_In: Starting Generation of Video In Decoder
+Info: Video_In: "nios_system" instantiated altera_up_avalon_video_decoder "Video_In"
+Info: Video_In_Chroma_Resampler: Starting Generation of Chroma Resampler
+Info: Video_In_Chroma_Resampler: "nios_system" instantiated altera_up_avalon_video_chroma_resampler "Video_In_Chroma_Resampler"
+Info: Video_In_CSC: Starting Generation of Colour Space Converter
+Info: Video_In_CSC: "nios_system" instantiated altera_up_avalon_video_csc "Video_In_CSC"
+Info: Video_In_RBG_Resampler: Starting Generation of Video RGB Resampler
+Info: Video_In_RBG_Resampler: "nios_system" instantiated altera_up_avalon_video_rgb_resampler "Video_In_RBG_Resampler"
+Info: Video_In_Clipper: Starting generation of the video clipper
+Info: Video_In_Clipper: "nios_system" instantiated altera_up_avalon_video_clipper "Video_In_Clipper"
+Info: Video_In_Scaler: Starting Generation of Video Scaler
+Info: Video_In_Scaler: "nios_system" instantiated altera_up_avalon_video_scaler "Video_In_Scaler"
+Info: Video_In_DMA_Controller: Starting Generation of Video DMA Controller
+Info: Video_In_DMA_Controller: "nios_system" instantiated altera_up_avalon_video_dma_controller "Video_In_DMA_Controller"
+Info: video_test_pattern_0: Starting Generation of Test Pattern Generator
+Info: video_test_pattern_0: "nios_system" instantiated altera_up_avalon_video_test_pattern "video_test_pattern_0"
+Info: rst_controller: "nios_system" instantiated altera_reset_controller "rst_controller"
+Info: nios_system: Done nios_system" with 20 modules, 66 files, 999781 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

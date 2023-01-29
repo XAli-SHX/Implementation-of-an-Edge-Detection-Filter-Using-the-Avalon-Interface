@@ -1,0 +1,104 @@
+	component nios_system is
+		port (
+			vga_clk                                        : out   std_logic;                                        -- clk
+			HEX4_from_the_HEX7_HEX4                        : out   std_logic_vector(6 downto 0);                     -- HEX4
+			HEX5_from_the_HEX7_HEX4                        : out   std_logic_vector(6 downto 0);                     -- HEX5
+			HEX6_from_the_HEX7_HEX4                        : out   std_logic_vector(6 downto 0);                     -- HEX6
+			HEX7_from_the_HEX7_HEX4                        : out   std_logic_vector(6 downto 0);                     -- HEX7
+			VGA_CLK_from_the_VGA_Controller                : out   std_logic;                                        -- CLK
+			VGA_HS_from_the_VGA_Controller                 : out   std_logic;                                        -- HS
+			VGA_VS_from_the_VGA_Controller                 : out   std_logic;                                        -- VS
+			VGA_BLANK_from_the_VGA_Controller              : out   std_logic;                                        -- BLANK
+			VGA_SYNC_from_the_VGA_Controller               : out   std_logic;                                        -- SYNC
+			VGA_R_from_the_VGA_Controller                  : out   std_logic_vector(9 downto 0);                     -- R
+			VGA_G_from_the_VGA_Controller                  : out   std_logic_vector(9 downto 0);                     -- G
+			VGA_B_from_the_VGA_Controller                  : out   std_logic_vector(9 downto 0);                     -- B
+			SRAM_DQ_to_and_from_the_SRAM                   : inout std_logic_vector(15 downto 0) := (others => 'X'); -- DQ
+			SRAM_ADDR_from_the_SRAM                        : out   std_logic_vector(17 downto 0);                    -- ADDR
+			SRAM_LB_N_from_the_SRAM                        : out   std_logic;                                        -- LB_N
+			SRAM_UB_N_from_the_SRAM                        : out   std_logic;                                        -- UB_N
+			SRAM_CE_N_from_the_SRAM                        : out   std_logic;                                        -- CE_N
+			SRAM_OE_N_from_the_SRAM                        : out   std_logic;                                        -- OE_N
+			SRAM_WE_N_from_the_SRAM                        : out   std_logic;                                        -- WE_N
+			GPIO_0_to_and_from_the_Expansion_JP1           : inout std_logic_vector(31 downto 0) := (others => 'X'); -- export
+			LCD_DATA_to_and_from_the_Char_LCD_16x2         : inout std_logic_vector(7 downto 0)  := (others => 'X'); -- DATA
+			LCD_ON_from_the_Char_LCD_16x2                  : out   std_logic;                                        -- ON
+			LCD_BLON_from_the_Char_LCD_16x2                : out   std_logic;                                        -- BLON
+			LCD_EN_from_the_Char_LCD_16x2                  : out   std_logic;                                        -- EN
+			LCD_RS_from_the_Char_LCD_16x2                  : out   std_logic;                                        -- RS
+			LCD_RW_from_the_Char_LCD_16x2                  : out   std_logic;                                        -- RW
+			sys_clk                                        : out   std_logic;                                        -- clk
+			UART_RXD_to_the_Serial_Port                    : in    std_logic                     := 'X';             -- RXD
+			UART_TXD_from_the_Serial_Port                  : out   std_logic;                                        -- TXD
+			AUD_ADCDAT_to_the_Audio                        : in    std_logic                     := 'X';             -- ADCDAT
+			AUD_ADCLRCK_to_the_Audio                       : in    std_logic                     := 'X';             -- ADCLRCK
+			AUD_BCLK_to_the_Audio                          : in    std_logic                     := 'X';             -- BCLK
+			AUD_DACDAT_from_the_Audio                      : out   std_logic;                                        -- DACDAT
+			AUD_DACLRCK_to_the_Audio                       : in    std_logic                     := 'X';             -- DACLRCK
+			LEDR_from_the_Red_LEDs                         : out   std_logic_vector(17 downto 0);                    -- export
+			reset_n                                        : in    std_logic                     := 'X';             -- reset_n
+			zs_addr_from_the_SDRAM                         : out   std_logic_vector(11 downto 0);                    -- addr
+			zs_ba_from_the_SDRAM                           : out   std_logic_vector(1 downto 0);                     -- ba
+			zs_cas_n_from_the_SDRAM                        : out   std_logic;                                        -- cas_n
+			zs_cke_from_the_SDRAM                          : out   std_logic;                                        -- cke
+			zs_cs_n_from_the_SDRAM                         : out   std_logic;                                        -- cs_n
+			zs_dq_to_and_from_the_SDRAM                    : inout std_logic_vector(15 downto 0) := (others => 'X'); -- dq
+			zs_dqm_from_the_SDRAM                          : out   std_logic_vector(1 downto 0);                     -- dqm
+			zs_ras_n_from_the_SDRAM                        : out   std_logic;                                        -- ras_n
+			zs_we_n_from_the_SDRAM                         : out   std_logic;                                        -- we_n
+			LEDG_from_the_Green_LEDs                       : out   std_logic_vector(8 downto 0);                     -- export
+			SW_to_the_Slider_Switches                      : in    std_logic_vector(17 downto 0) := (others => 'X'); -- export
+			I2C_SDAT_to_and_from_the_AV_Config             : inout std_logic                     := 'X';             -- SDAT
+			I2C_SCLK_from_the_AV_Config                    : out   std_logic;                                        -- SCLK
+			GPIO_1_to_and_from_the_Expansion_JP2           : inout std_logic_vector(31 downto 0) := (others => 'X'); -- export
+			PS2_CLK_to_and_from_the_PS2_Port               : inout std_logic                     := 'X';             -- CLK
+			PS2_DAT_to_and_from_the_PS2_Port               : inout std_logic                     := 'X';             -- DAT
+			KEY_to_the_Pushbuttons                         : in    std_logic_vector(3 downto 0)  := (others => 'X'); -- export
+			clk                                            : in    std_logic                     := 'X';             -- clk
+			HEX0_from_the_HEX3_HEX0                        : out   std_logic_vector(6 downto 0);                     -- HEX0
+			HEX1_from_the_HEX3_HEX0                        : out   std_logic_vector(6 downto 0);                     -- HEX1
+			HEX2_from_the_HEX3_HEX0                        : out   std_logic_vector(6 downto 0);                     -- HEX2
+			HEX3_from_the_HEX3_HEX0                        : out   std_logic_vector(6 downto 0);                     -- HEX3
+			clk_27                                         : in    std_logic                     := 'X';             -- clk
+			sdram_clk                                      : out   std_logic;                                        -- clk
+			audio_clk                                      : out   std_logic;                                        -- clk
+			flash_ADDR                                     : out   std_logic_vector(21 downto 0);                    -- ADDR
+			flash_CE_N                                     : out   std_logic;                                        -- CE_N
+			flash_OE_N                                     : out   std_logic;                                        -- OE_N
+			flash_WE_N                                     : out   std_logic;                                        -- WE_N
+			flash_RST_N                                    : out   std_logic;                                        -- RST_N
+			flash_DQ                                       : inout std_logic_vector(7 downto 0)  := (others => 'X'); -- DQ
+			sd_card_b_SD_cmd                               : inout std_logic                     := 'X';             -- b_SD_cmd
+			sd_card_b_SD_dat                               : inout std_logic                     := 'X';             -- b_SD_dat
+			sd_card_b_SD_dat3                              : inout std_logic                     := 'X';             -- b_SD_dat3
+			sd_card_o_SD_clock                             : out   std_logic;                                        -- o_SD_clock
+			irda_TXD                                       : out   std_logic;                                        -- TXD
+			irda_RXD                                       : in    std_logic                     := 'X';             -- RXD
+			video_in_TD_CLK27                              : in    std_logic                     := 'X';             -- TD_CLK27
+			video_in_TD_DATA                               : in    std_logic_vector(7 downto 0)  := (others => 'X'); -- TD_DATA
+			video_in_TD_HS                                 : in    std_logic                     := 'X';             -- TD_HS
+			video_in_TD_VS                                 : in    std_logic                     := 'X';             -- TD_VS
+			video_in_clk27_reset                           : in    std_logic                     := 'X';             -- clk27_reset
+			video_in_TD_RESET                              : out   std_logic;                                        -- TD_RESET
+			video_in_overflow_flag                         : out   std_logic;                                        -- overflow_flag
+			ethernet_INT                                   : in    std_logic                     := 'X';             -- INT
+			ethernet_DATA                                  : inout std_logic_vector(15 downto 0) := (others => 'X'); -- DATA
+			ethernet_RST_N                                 : out   std_logic;                                        -- RST_N
+			ethernet_CS_N                                  : out   std_logic;                                        -- CS_N
+			ethernet_CMD                                   : out   std_logic;                                        -- CMD
+			ethernet_RD_N                                  : out   std_logic;                                        -- RD_N
+			ethernet_WR_N                                  : out   std_logic;                                        -- WR_N
+			usb_INT1                                       : in    std_logic                     := 'X';             -- INT1
+			usb_DATA                                       : inout std_logic_vector(15 downto 0) := (others => 'X'); -- DATA
+			usb_RST_N                                      : out   std_logic;                                        -- RST_N
+			usb_ADDR                                       : out   std_logic_vector(1 downto 0);                     -- ADDR
+			usb_CS_N                                       : out   std_logic;                                        -- CS_N
+			usb_RD_N                                       : out   std_logic;                                        -- RD_N
+			usb_WR_N                                       : out   std_logic;                                        -- WR_N
+			usb_INT0                                       : in    std_logic                     := 'X';             -- INT0
+			video_test_pattern_0_clock_reset_reset_reset   : in    std_logic                     := 'X';             -- reset
+			video_edge_detection_0_clock_reset_reset_reset : in    std_logic                     := 'X';             -- reset
+			rgb2gray_avalonstreaming_0_reset_sink_reset_n  : in    std_logic                     := 'X'              -- reset_n
+		);
+	end component nios_system;
+

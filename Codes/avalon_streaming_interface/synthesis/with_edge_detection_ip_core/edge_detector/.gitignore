@@ -1,0 +1,6 @@
+/app_software/*
+/app_software_HAL/*
+/doc/*
+/vhdl/*
+/verilog/db/*
+/verilog/db/incremental_db/*

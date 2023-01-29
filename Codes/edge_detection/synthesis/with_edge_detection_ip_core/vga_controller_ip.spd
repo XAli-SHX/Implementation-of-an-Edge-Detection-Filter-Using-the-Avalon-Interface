@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<simPackage>
- <file
-   path="vga_controller_ip_sim/altera_up_avalon_video_vga_timing.v"
-   type="VERILOG" />
- <file path="vga_controller_ip_sim/vga_controller_ip.v" type="VERILOG" />
- <topLevel name="vga_controller_ip" />
- <deviceFamily name="cycloneii" />
-</simPackage>
