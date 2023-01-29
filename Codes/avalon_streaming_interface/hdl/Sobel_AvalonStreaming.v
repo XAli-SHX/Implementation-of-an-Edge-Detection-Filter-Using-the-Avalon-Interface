@@ -30,11 +30,12 @@ module Sobel_AvalonStreaming
                SendPackets = 3;
     reg [1:0] ps_r, ns_r;
 
-    reg startCore_r, dataAvailableCore_r, validCore_r;
+    reg startCore_r;
+    wire dataAvailableCore_w, validCore_w;
     reg startCoreSatateMachine_r;
 
     reg [7:0] GrayImage_m [(IMG_X_SIZE*IMG_Y_SIZE)-1:0];
-    reg [7:0] DataCore_r;
+    wire [7:0] DataCore_w;
 
     // avalon streaming interface state machine ********************************************
     always @(posedge csi_clkrst_clk or negedge csi_clkrst_reset_n) begin
@@ -47,8 +48,8 @@ module Sobel_AvalonStreaming
         case (ps_r) 
             GetFirstPacket: ns_r = asi_sink1_startofpacket ? GetPackets : GetFirstPacket;
             GetPackets: ns_r = asi_sink1_endofpacket ? CalcSobel : GetPackets;
-            CalcSobel: ns_r = dataAvailableCore_r ? SendPackets : CalcSobel;
-            SendPackets: ns_r = validCore_r ? GetFirstPacket : SendPackets;
+            CalcSobel: ns_r = dataAvailableCore_w ? SendPackets : CalcSobel;
+            SendPackets: ns_r = validCore_w ? GetFirstPacket : SendPackets;
         endcase
     end
 
@@ -89,11 +90,11 @@ module Sobel_AvalonStreaming
         .rst_i(~csi_clkrst_reset_n),
         .GrayImage_i(asi_sink1_data),
         .start_i(startCore_r),
-        .dataAvailable_o(dataAvailableCore_r),
-        .valid_o(validCore_r),
-        .ProcessedImagePixel_o(DataCore_r)
+        .dataAvailable_o(dataAvailableCore_w),
+        .valid_o(validCore_w),
+        .ProcessedImagePixel_o(DataCore_w)
     );
 
-    assign aso_source1_data = DataCore_r;
+    assign aso_source1_data = DataCore_w;
 
 endmodule
