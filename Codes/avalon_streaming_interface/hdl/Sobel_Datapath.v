@@ -63,12 +63,11 @@ module Sobel_Datapath #(
     wire [11:0] GxPixelAbs_w, GyPixelAbs_w;
 
     wire [11:0] MuxClearGxDataOut_w;
-    wire [G_ADR_BITS-1:0] MuxClearGxAdrOut_w;
+    wire [G_ADR_BITS-1:0] MuxClearGxyAdrOut_w;
     wire [11:0] MuxClearGyDataOut_w;
-    wire [G_ADR_BITS-1:0] MuxClearGyAdrOut_w;
     
 
-    CounterDualPort #(.X_END(KX_SIZE-1), .Y_END(KY_SIZE-1))
+    CounterDualPort #(.X_END(KX_SIZE-1), .Y_END(KY_SIZE-1), .X_WIDTH(3), .Y_WIDTH(3))
       CntrKernel (
         .clk_i(clk_i),
         .rst_i(rst_i),
@@ -79,7 +78,7 @@ module Sobel_Datapath #(
         .finished_o(kernelResReady_o)
     );
     
-    CounterDualPort #(.X_END(IMG_X_SIZE-1), .Y_END(IMG_Y_SIZE-1))
+    CounterDualPort #(.X_END(IMG_X_SIZE-1), .Y_END(IMG_Y_SIZE-1), .X_WIDTH(IMG_X_BITS), .Y_WIDTH(IMG_Y_BITS))
       CntrInput (
         .clk_i(clk_i),
         .rst_i(rst_i),
@@ -90,7 +89,7 @@ module Sobel_Datapath #(
         .finished_o(inputRecieved_o)
     );
     
-    CounterDualPort #(.X_END(IMG_X_SIZE-3), .Y_END(IMG_Y_SIZE-3))
+    CounterDualPort #(.X_END(IMG_X_SIZE-3), .Y_END(IMG_Y_SIZE-3), .X_WIDTH(IMG_X_BITS), .Y_WIDTH(IMG_Y_BITS))
       CntrMemG (
         .clk_i(clk_i),
         .rst_i(rst_i),
@@ -179,12 +178,12 @@ module Sobel_Datapath #(
         .DataOut_o(MuxClearGxDataOut_w)
     );
 
-    Mux2 #(.WIDTH(12))
+    Mux2 #(.WIDTH(G_ADR_BITS))
       MuxClearGxAdr (
         .Data0_i(MemGxyAdr_w), 
         .Data1_i(MemImgAdr_w),
         .select_i(memGclear_i),
-        .DataOut_o(MuxClearGxAdrOut_w)
+        .DataOut_o(MuxClearGxyAdrOut_w)
     );
 
     Memory #(.WORD(12), .SIZE((IMG_X_SIZE-2) * (IMG_Y_SIZE-2)))
@@ -205,12 +204,12 @@ module Sobel_Datapath #(
         .DataOut_o(MuxClearGyDataOut_w)
     );
 
-    Mux2 #(.WIDTH(12))
+    Mux2 #(.WIDTH(G_ADR_BITS))
       MuxClearGyAdr (
         .Data0_i(MemGxyAdr_w), 
         .Data1_i(MemImgAdr_w),
         .select_i(memGclear_i),
-        .DataOut_o(MuxClearGyAdrOut_w)
+        .DataOut_o(MuxClearGxyAdrOut_w)
     );
     
     Memory #(.WORD(12), .SIZE((IMG_X_SIZE-2) * (IMG_Y_SIZE-2)))

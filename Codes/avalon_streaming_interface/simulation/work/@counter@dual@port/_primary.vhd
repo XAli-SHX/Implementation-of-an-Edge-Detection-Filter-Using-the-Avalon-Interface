@@ -3,7 +3,9 @@ use verilog.vl_types.all;
 entity CounterDualPort is
     generic(
         X_END           : integer := 3;
-        Y_END           : integer := 3
+        Y_END           : integer := 3;
+        X_WIDTH         : integer := 2;
+        Y_WIDTH         : integer := 2
     );
     port(
         clk_i           : in     vl_logic;
@@ -17,4 +19,6 @@ entity CounterDualPort is
     attribute mti_svvh_generic_type : integer;
     attribute mti_svvh_generic_type of X_END : constant is 1;
     attribute mti_svvh_generic_type of Y_END : constant is 1;
+    attribute mti_svvh_generic_type of X_WIDTH : constant is 1;
+    attribute mti_svvh_generic_type of Y_WIDTH : constant is 1;
 end CounterDualPort;

@@ -1,6 +1,9 @@
 module CounterDualPort #(
-    parameter X_END = 3,
-              Y_END = 3
+    parameter 
+    X_END = 3,
+    Y_END = 3,
+    X_WIDTH = 2,
+    Y_WIDTH = 2
 ) (
     clk_i,
     rst_i,
@@ -11,8 +14,6 @@ module CounterDualPort #(
     finished_o
 );
 
-    localparam X_WIDTH = X_END;
-    localparam Y_WIDTH = Y_END;
     input clk_i, rst_i, inc_i, clear_i;
     output reg [X_WIDTH-1:0] X_o;
     output reg [Y_WIDTH-1:0] Y_o;

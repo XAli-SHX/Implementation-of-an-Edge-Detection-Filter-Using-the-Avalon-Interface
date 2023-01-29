@@ -9,7 +9,7 @@ module Sobel_AvalonStreaming
     input wire csi_clkrst_clk,
     input wire csi_clkrst_reset_n,
 
-    //sink
+    // sink
     input   wire    [7:0]   asi_sink1_data,
     input   wire            asi_sink1_startofpacket,
     input   wire            asi_sink1_endofpacket,
@@ -46,7 +46,7 @@ module Sobel_AvalonStreaming
     always @(*) begin
         ns_r = GetFirstPacket;
         case (ps_r) 
-            GetFirstPacket: ns_r = asi_sink1_startofpacket ? GetPackets : GetFirstPacket;
+            GetFirstPacket: ns_r = (asi_sink1_startofpacket & aso_source1_ready) ? GetPackets : GetFirstPacket;
             GetPackets: ns_r = asi_sink1_endofpacket ? CalcSobel : GetPackets;
             CalcSobel: ns_r = dataAvailableCore_w ? SendPackets : CalcSobel;
             SendPackets: ns_r = validCore_w ? GetFirstPacket : SendPackets;
@@ -87,7 +87,7 @@ module Sobel_AvalonStreaming
         .IMG_Y_SIZE(IMG_Y_SIZE)
     ) Sobel_core (
         .clk_i(csi_clkrst_clk), 
-        .rst_i(~csi_clkrst_reset_n),
+        .rst_i((~csi_clkrst_reset_n)),
         .GrayImage_i(asi_sink1_data),
         .start_i(startCore_r),
         .dataAvailable_o(dataAvailableCore_w),

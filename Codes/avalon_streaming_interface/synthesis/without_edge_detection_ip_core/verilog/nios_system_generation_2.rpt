@@ -1,0 +1,397 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/ --output-directory=H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system/ --report-file=bsf:H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system.bsf --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C35F672C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system.qsys
+Progress: Loading verilog/nios_system.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 13.0]
+Progress: Parameterizing module clk
+Progress: Adding JTAG_UART [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module JTAG_UART
+Progress: Adding Interval_Timer [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module Interval_Timer
+Progress: Adding SDRAM [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module SDRAM
+Progress: Adding Red_LEDs [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Red_LEDs
+Progress: Adding Green_LEDs [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Green_LEDs
+Progress: Adding HEX3_HEX0 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX3_HEX0
+Progress: Adding HEX7_HEX4 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX7_HEX4
+Progress: Adding Slider_Switches [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Slider_Switches
+Progress: Adding Pushbuttons [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Pushbuttons
+Progress: Adding Expansion_JP1 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Expansion_JP1
+Progress: Adding Expansion_JP2 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Expansion_JP2
+Progress: Adding Serial_Port [altera_up_avalon_rs232 13.0]
+Progress: Parameterizing module Serial_Port
+Progress: Adding AV_Config [altera_up_avalon_audio_and_video_config 13.0]
+Progress: Parameterizing module AV_Config
+Progress: Adding Audio [altera_up_avalon_audio 13.0]
+Progress: Parameterizing module Audio
+Progress: Adding Char_LCD_16x2 [altera_up_avalon_character_lcd 13.0]
+Progress: Parameterizing module Char_LCD_16x2
+Progress: Adding PS2_Port [altera_up_avalon_ps2 13.0]
+Progress: Parameterizing module PS2_Port
+Progress: Adding SRAM [altera_up_avalon_sram 13.0]
+Progress: Parameterizing module SRAM
+Progress: Adding VGA_Pixel_Buffer [altera_up_avalon_video_pixel_buffer_dma 13.0]
+Progress: Parameterizing module VGA_Pixel_Buffer
+Progress: Adding VGA_Char_Buffer [altera_up_avalon_video_character_buffer_with_dma 13.0]
+Progress: Parameterizing module VGA_Char_Buffer
+Progress: Adding VGA_Controller [altera_up_avalon_video_vga_controller 13.0]
+Progress: Parameterizing module VGA_Controller
+Progress: Adding VGA_Pixel_RGB_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module VGA_Pixel_RGB_Resampler
+Progress: Adding VGA_Pixel_Scaler [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module VGA_Pixel_Scaler
+Progress: Adding VGA_Dual_Clock_FIFO [altera_up_avalon_video_dual_clock_buffer 13.0]
+Progress: Parameterizing module VGA_Dual_Clock_FIFO
+Progress: Adding CPU_fpoint [altera_nios_custom_instr_floating_point 13.0]
+Progress: Parameterizing module CPU_fpoint
+Progress: Adding clk_27 [clock_source 13.0]
+Progress: Parameterizing module clk_27
+Progress: Adding Alpha_Blending [altera_up_avalon_video_alpha_blender 13.0]
+Progress: Parameterizing module Alpha_Blending
+Progress: Adding CPU [altera_nios2_qsys 13.0]
+Progress: Parameterizing module CPU
+Progress: Adding sysid [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid
+Progress: Adding merged_resets [altera_reset_bridge 13.0]
+Progress: Parameterizing module merged_resets
+Progress: Adding sys_clk [altera_clock_bridge 13.0]
+Progress: Parameterizing module sys_clk
+Progress: Adding vga_clk [altera_clock_bridge 13.0]
+Progress: Parameterizing module vga_clk
+Progress: Adding External_Clocks [altera_up_clocks 13.0]
+Progress: Parameterizing module External_Clocks
+Progress: Adding SD_Card [Altera_UP_SD_Card_Avalon_Interface 13.0]
+Progress: Parameterizing module SD_Card
+Progress: Adding Flash [Altera_UP_Flash_Memory_IP_Core_Avalon_Interface 13.0]
+Progress: Parameterizing module Flash
+Progress: Adding IrDA_UART [altera_up_avalon_irda 13.0]
+Progress: Parameterizing module IrDA_UART
+Progress: Adding Video_In [altera_up_avalon_video_decoder 13.0]
+Progress: Parameterizing module Video_In
+Progress: Adding Video_In_Chroma_Resampler [altera_up_avalon_video_chroma_resampler 13.0]
+Progress: Parameterizing module Video_In_Chroma_Resampler
+Progress: Adding Video_In_CSC [altera_up_avalon_video_csc 13.0]
+Progress: Parameterizing module Video_In_CSC
+Progress: Adding Video_In_RBG_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module Video_In_RBG_Resampler
+Progress: Adding Video_In_Clipper [altera_up_avalon_video_clipper 13.0]
+Progress: Parameterizing module Video_In_Clipper
+Progress: Adding Video_In_Scaler [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module Video_In_Scaler
+Progress: Adding Video_In_DMA_Controller [altera_up_avalon_video_dma_controller 13.0]
+Progress: Parameterizing module Video_In_DMA_Controller
+Progress: Adding Ethernet [altera_up_avalon_ethernet 13.0]
+Progress: Parameterizing module Ethernet
+Progress: Adding USB [altera_up_avalon_usb 13.0]
+Progress: Parameterizing module USB
+Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 13.0]
+Progress: Parameterizing module video_test_pattern_0
+Progress: Adding Rgb2Gray_AvalonStream_0 [Rgb2Gray_AvalonStream 1.0]
+Progress: Parameterizing module Rgb2Gray_AvalonStream_0
+Progress: Adding SobelFilter_AvalonStream_0 [SobelFilter_AvalonStream 1.0]
+Warning: SobelFilter_AvalonStream_0: Used SobelFilter_AvalonStream 1.2 (instead of 1.0)
+Progress: Parameterizing module SobelFilter_AvalonStream_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_system.VGA_Controller: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes)
+Info: nios_system.VGA_Pixel_RGB_Resampler: RGB Resampling: 8 (bits) x 1 (planes) -> 10 (bits) x 3 (planes)
+Info: nios_system.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_system.sysid: Time stamp will be automatically updated when this component is generated.
+Info: nios_system.Video_In: Video In Stream: Format: 720 x 244 (Odd Frames) or 720 x 243 (Even Frames) with Colour: 8 (bits) x 2 (planes) (YCrCb 4:2:2)
+Info: nios_system.Video_In_Chroma_Resampler: Chroma Resampling: 8 (bits) x 2 (planes) -> 8 (bits) x 3 (planes)
+Info: nios_system.Video_In_CSC: Colour Space Conversion: 8 (bits) x 3 (planes) (444 YCrCb) -> 8 (bits) x 3 (planes) (24-bit RGB)
+Info: nios_system.Video_In_RBG_Resampler: RGB Resampling: 8 (bits) x 3 (planes) -> 16 (bits) x 1 (planes)
+Info: nios_system.Video_In_Clipper: Change in Resolution: 720 x 244 -> 640 x 240
+Info: nios_system.Video_In_Scaler: Change in Resolution: 640 x 240 -> 320 x 240
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/ --output-directory=H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system.sopcinfo --report-file=html:H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system.html --report-file=qip:H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system/synthesis/nios_system.qip --report-file=cmp:H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C35F672C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system.qsys --language=VERILOG
+Progress: Loading verilog/nios_system.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 13.0]
+Progress: Parameterizing module clk
+Progress: Adding JTAG_UART [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module JTAG_UART
+Progress: Adding Interval_Timer [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module Interval_Timer
+Progress: Adding SDRAM [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module SDRAM
+Progress: Adding Red_LEDs [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Red_LEDs
+Progress: Adding Green_LEDs [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Green_LEDs
+Progress: Adding HEX3_HEX0 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX3_HEX0
+Progress: Adding HEX7_HEX4 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX7_HEX4
+Progress: Adding Slider_Switches [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Slider_Switches
+Progress: Adding Pushbuttons [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Pushbuttons
+Progress: Adding Expansion_JP1 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Expansion_JP1
+Progress: Adding Expansion_JP2 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Expansion_JP2
+Progress: Adding Serial_Port [altera_up_avalon_rs232 13.0]
+Progress: Parameterizing module Serial_Port
+Progress: Adding AV_Config [altera_up_avalon_audio_and_video_config 13.0]
+Progress: Parameterizing module AV_Config
+Progress: Adding Audio [altera_up_avalon_audio 13.0]
+Progress: Parameterizing module Audio
+Progress: Adding Char_LCD_16x2 [altera_up_avalon_character_lcd 13.0]
+Progress: Parameterizing module Char_LCD_16x2
+Progress: Adding PS2_Port [altera_up_avalon_ps2 13.0]
+Progress: Parameterizing module PS2_Port
+Progress: Adding SRAM [altera_up_avalon_sram 13.0]
+Progress: Parameterizing module SRAM
+Progress: Adding VGA_Pixel_Buffer [altera_up_avalon_video_pixel_buffer_dma 13.0]
+Progress: Parameterizing module VGA_Pixel_Buffer
+Progress: Adding VGA_Char_Buffer [altera_up_avalon_video_character_buffer_with_dma 13.0]
+Progress: Parameterizing module VGA_Char_Buffer
+Progress: Adding VGA_Controller [altera_up_avalon_video_vga_controller 13.0]
+Progress: Parameterizing module VGA_Controller
+Progress: Adding VGA_Pixel_RGB_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module VGA_Pixel_RGB_Resampler
+Progress: Adding VGA_Pixel_Scaler [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module VGA_Pixel_Scaler
+Progress: Adding VGA_Dual_Clock_FIFO [altera_up_avalon_video_dual_clock_buffer 13.0]
+Progress: Parameterizing module VGA_Dual_Clock_FIFO
+Progress: Adding CPU_fpoint [altera_nios_custom_instr_floating_point 13.0]
+Progress: Parameterizing module CPU_fpoint
+Progress: Adding clk_27 [clock_source 13.0]
+Progress: Parameterizing module clk_27
+Progress: Adding Alpha_Blending [altera_up_avalon_video_alpha_blender 13.0]
+Progress: Parameterizing module Alpha_Blending
+Progress: Adding CPU [altera_nios2_qsys 13.0]
+Progress: Parameterizing module CPU
+Progress: Adding sysid [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid
+Progress: Adding merged_resets [altera_reset_bridge 13.0]
+Progress: Parameterizing module merged_resets
+Progress: Adding sys_clk [altera_clock_bridge 13.0]
+Progress: Parameterizing module sys_clk
+Progress: Adding vga_clk [altera_clock_bridge 13.0]
+Progress: Parameterizing module vga_clk
+Progress: Adding External_Clocks [altera_up_clocks 13.0]
+Progress: Parameterizing module External_Clocks
+Progress: Adding SD_Card [Altera_UP_SD_Card_Avalon_Interface 13.0]
+Progress: Parameterizing module SD_Card
+Progress: Adding Flash [Altera_UP_Flash_Memory_IP_Core_Avalon_Interface 13.0]
+Progress: Parameterizing module Flash
+Progress: Adding IrDA_UART [altera_up_avalon_irda 13.0]
+Progress: Parameterizing module IrDA_UART
+Progress: Adding Video_In [altera_up_avalon_video_decoder 13.0]
+Progress: Parameterizing module Video_In
+Progress: Adding Video_In_Chroma_Resampler [altera_up_avalon_video_chroma_resampler 13.0]
+Progress: Parameterizing module Video_In_Chroma_Resampler
+Progress: Adding Video_In_CSC [altera_up_avalon_video_csc 13.0]
+Progress: Parameterizing module Video_In_CSC
+Progress: Adding Video_In_RBG_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module Video_In_RBG_Resampler
+Progress: Adding Video_In_Clipper [altera_up_avalon_video_clipper 13.0]
+Progress: Parameterizing module Video_In_Clipper
+Progress: Adding Video_In_Scaler [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module Video_In_Scaler
+Progress: Adding Video_In_DMA_Controller [altera_up_avalon_video_dma_controller 13.0]
+Progress: Parameterizing module Video_In_DMA_Controller
+Progress: Adding Ethernet [altera_up_avalon_ethernet 13.0]
+Progress: Parameterizing module Ethernet
+Progress: Adding USB [altera_up_avalon_usb 13.0]
+Progress: Parameterizing module USB
+Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 13.0]
+Progress: Parameterizing module video_test_pattern_0
+Progress: Adding Rgb2Gray_AvalonStream_0 [Rgb2Gray_AvalonStream 1.0]
+Progress: Parameterizing module Rgb2Gray_AvalonStream_0
+Progress: Adding SobelFilter_AvalonStream_0 [SobelFilter_AvalonStream 1.0]
+Warning: SobelFilter_AvalonStream_0: Used SobelFilter_AvalonStream 1.2 (instead of 1.0)
+Progress: Parameterizing module SobelFilter_AvalonStream_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_system.VGA_Controller: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes)
+Info: nios_system.VGA_Pixel_RGB_Resampler: RGB Resampling: 8 (bits) x 1 (planes) -> 10 (bits) x 3 (planes)
+Info: nios_system.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_system.sysid: Time stamp will be automatically updated when this component is generated.
+Info: nios_system.Video_In: Video In Stream: Format: 720 x 244 (Odd Frames) or 720 x 243 (Even Frames) with Colour: 8 (bits) x 2 (planes) (YCrCb 4:2:2)
+Info: nios_system.Video_In_Chroma_Resampler: Chroma Resampling: 8 (bits) x 2 (planes) -> 8 (bits) x 3 (planes)
+Info: nios_system.Video_In_CSC: Colour Space Conversion: 8 (bits) x 3 (planes) (444 YCrCb) -> 8 (bits) x 3 (planes) (24-bit RGB)
+Info: nios_system.Video_In_RBG_Resampler: RGB Resampling: 8 (bits) x 3 (planes) -> 16 (bits) x 1 (planes)
+Info: nios_system.Video_In_Clipper: Change in Resolution: 720 x 244 -> 640 x 240
+Info: nios_system.Video_In_Scaler: Change in Resolution: 640 x 240 -> 320 x 240
+Info: nios_system: Generating nios_system "nios_system" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 44 modules, 207 connections
+Info: merlin_custom_instruction_transform: After transform: 47 modules, 210 connections
+Info: merlin_translator_transform: After transform: 76 modules, 359 connections
+Info: merlin_domain_transform: After transform: 134 modules, 853 connections
+Info: merlin_router_transform: After transform: 163 modules, 1002 connections
+Info: merlin_traffic_limiter_transform: After transform: 164 modules, 1008 connections
+Info: merlin_burst_transform: After transform: 167 modules, 1023 connections
+Info: reset_adaptation_transform: After transform: 172 modules, 650 connections
+Info: merlin_network_to_switch_transform: After transform: 229 modules, 766 connections
+Info: merlin_width_transform: After transform: 237 modules, 790 connections
+Info: limiter_update_transform: After transform: 237 modules, 791 connections
+Info: merlin_mm_transform: After transform: 237 modules, 791 connections
+Info: merlin_interrupt_mapper_transform: After transform: 238 modules, 794 connections
+Warning: nios_system: "No matching role found for CPU_custom_instruction_master_translator:ci_slave:ci_slave_result (result)"
+Warning: nios_system: "No matching role found for CPU_custom_instruction_master_multi_xconnect:ci_slave:ci_slave_ipending (ipending)"
+Warning: nios_system: "No matching role found for CPU_custom_instruction_master_multi_xconnect:ci_slave:ci_slave_estatus (estatus)"
+Info: JTAG_UART: Starting RTL generation for module 'nios_system_JTAG_UART'
+Info: JTAG_UART:   Generation command is [exec H:/programs/quartus/13.0sp1/quartus/bin/perl/bin/perl.exe -I H:/programs/quartus/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I H:/programs/quartus/13.0sp1/quartus/sopc_builder/bin/europa -I H:/programs/quartus/13.0sp1/quartus/sopc_builder/bin/perl_lib -I H:/programs/quartus/13.0sp1/quartus/sopc_builder/bin -I H:/programs/quartus/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I H:/programs/quartus/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- H:/programs/quartus/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios_system_JTAG_UART --dir=C:/Users/ASUS/AppData/Local/Temp/alt9386_902471927349248242.dir/0154_JTAG_UART_gen/ --quartus_dir=H:/programs/quartus/13.0sp1/quartus --verilog --config=C:/Users/ASUS/AppData/Local/Temp/alt9386_902471927349248242.dir/0154_JTAG_UART_gen//nios_system_JTAG_UART_component_configuration.pl  --do_build_sim=0  ]
+Info: JTAG_UART: Done RTL generation for module 'nios_system_JTAG_UART'
+Info: JTAG_UART: "nios_system" instantiated altera_avalon_jtag_uart "JTAG_UART"
+Info: Interval_Timer: Starting RTL generation for module 'nios_system_Interval_Timer'
+Info: Interval_Timer:   Generation command is [exec H:/programs/quartus/13.0sp1/quartus/bin/perl/bin/perl.exe -I H:/programs/quartus/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I H:/programs/quartus/13.0sp1/quartus/sopc_builder/bin/europa -I H:/programs/quartus/13.0sp1/quartus/sopc_builder/bin/perl_lib -I H:/programs/quartus/13.0sp1/quartus/sopc_builder/bin -I H:/programs/quartus/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I H:/programs/quartus/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- H:/programs/quartus/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=nios_system_Interval_Timer --dir=C:/Users/ASUS/AppData/Local/Temp/alt9386_902471927349248242.dir/0155_Interval_Timer_gen/ --quartus_dir=H:/programs/quartus/13.0sp1/quartus --verilog --config=C:/Users/ASUS/AppData/Local/Temp/alt9386_902471927349248242.dir/0155_Interval_Timer_gen//nios_system_Interval_Timer_component_configuration.pl  --do_build_sim=0  ]
+Info: Interval_Timer: Done RTL generation for module 'nios_system_Interval_Timer'
+Info: Interval_Timer: "nios_system" instantiated altera_avalon_timer "Interval_Timer"
+Info: SDRAM: Starting RTL generation for module 'nios_system_SDRAM'
+Info: SDRAM:   Generation command is [exec H:/programs/quartus/13.0sp1/quartus/bin/perl/bin/perl.exe -I H:/programs/quartus/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I H:/programs/quartus/13.0sp1/quartus/sopc_builder/bin/europa -I H:/programs/quartus/13.0sp1/quartus/sopc_builder/bin/perl_lib -I H:/programs/quartus/13.0sp1/quartus/sopc_builder/bin -I H:/programs/quartus/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I H:/programs/quartus/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- H:/programs/quartus/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=nios_system_SDRAM --dir=C:/Users/ASUS/AppData/Local/Temp/alt9386_902471927349248242.dir/0156_SDRAM_gen/ --quartus_dir=H:/programs/quartus/13.0sp1/quartus --verilog --config=C:/Users/ASUS/AppData/Local/Temp/alt9386_902471927349248242.dir/0156_SDRAM_gen//nios_system_SDRAM_component_configuration.pl  --do_build_sim=0  ]
+Info: SDRAM: Done RTL generation for module 'nios_system_SDRAM'
+Info: SDRAM: "nios_system" instantiated altera_avalon_new_sdram_controller "SDRAM"
+Info: Red_LEDs: Starting Generation of Parallel Port
+Info: Red_LEDs: "nios_system" instantiated altera_up_avalon_parallel_port "Red_LEDs"
+Info: Green_LEDs: Starting Generation of Parallel Port
+Info: Green_LEDs: "nios_system" instantiated altera_up_avalon_parallel_port "Green_LEDs"
+Info: HEX3_HEX0: Starting Generation of Parallel Port
+Info: HEX3_HEX0: "nios_system" instantiated altera_up_avalon_parallel_port "HEX3_HEX0"
+Info: HEX7_HEX4: Starting Generation of Parallel Port
+Info: HEX7_HEX4: "nios_system" instantiated altera_up_avalon_parallel_port "HEX7_HEX4"
+Info: Slider_Switches: Starting Generation of Parallel Port
+Info: Slider_Switches: "nios_system" instantiated altera_up_avalon_parallel_port "Slider_Switches"
+Info: Pushbuttons: Starting Generation of Parallel Port
+Info: Pushbuttons: "nios_system" instantiated altera_up_avalon_parallel_port "Pushbuttons"
+Info: Expansion_JP1: Starting Generation of Parallel Port
+Info: Expansion_JP1: "nios_system" instantiated altera_up_avalon_parallel_port "Expansion_JP1"
+Info: Expansion_JP2: Starting Generation of Parallel Port
+Info: Expansion_JP2: "nios_system" instantiated altera_up_avalon_parallel_port "Expansion_JP2"
+Info: Serial_Port: Starting Generation of RS232 UART
+Info: Serial_Port: "nios_system" instantiated altera_up_avalon_rs232 "Serial_Port"
+Info: AV_Config: Starting Generation of Audio and Video Config
+Info: AV_Config: "nios_system" instantiated altera_up_avalon_audio_and_video_config "AV_Config"
+Info: Audio: Starting Generation of Audio Controller
+Info: Audio: "nios_system" instantiated altera_up_avalon_audio "Audio"
+Warning: Overwriting different file H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system/synthesis/submodules/altera_up_sync_fifo.v
+Info: Char_LCD_16x2: Starting Generation of Character LCD
+Info: Char_LCD_16x2: "nios_system" instantiated altera_up_avalon_character_lcd "Char_LCD_16x2"
+Info: PS2_Port: Starting Generation of PS2 Controller
+Info: PS2_Port: "nios_system" instantiated altera_up_avalon_ps2 "PS2_Port"
+Info: SRAM: Starting Generation of SRAM or SSRAM Controller
+Info: SRAM: "nios_system" instantiated altera_up_avalon_sram "SRAM"
+Info: VGA_Controller: Starting Generation of VGA Controller
+Info: VGA_Controller: "nios_system" instantiated altera_up_avalon_video_vga_controller "VGA_Controller"
+Info: VGA_Pixel_RGB_Resampler: Starting Generation of Video RGB Resampler
+Info: VGA_Pixel_RGB_Resampler: "nios_system" instantiated altera_up_avalon_video_rgb_resampler "VGA_Pixel_RGB_Resampler"
+Info: VGA_Dual_Clock_FIFO: Starting Generation of the Dual Clock Buffer
+Info: VGA_Dual_Clock_FIFO: "nios_system" instantiated altera_up_avalon_video_dual_clock_buffer "VGA_Dual_Clock_FIFO"
+Info: CPU_fpoint: "nios_system" instantiated altera_nios_custom_instr_floating_point "CPU_fpoint"
+Info: CPU: Starting RTL generation for module 'nios_system_CPU'
+Info: CPU:   Generation command is [exec H:/programs/quartus/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I H:/programs/quartus/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I H:/programs/quartus/13.0sp1/quartus/sopc_builder/bin/europa -I H:/programs/quartus/13.0sp1/quartus/sopc_builder/bin/perl_lib -I H:/programs/quartus/13.0sp1/quartus/sopc_builder/bin -I H:/programs/quartus/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I H:/programs/quartus/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I H:/programs/quartus/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I H:/programs/quartus/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- H:/programs/quartus/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=nios_system_CPU --dir=C:/Users/ASUS/AppData/Local/Temp/alt9386_902471927349248242.dir/0174_CPU_gen/ --quartus_dir=H:/programs/quartus/13.0sp1/quartus --verilog --config=C:/Users/ASUS/AppData/Local/Temp/alt9386_902471927349248242.dir/0174_CPU_gen//nios_system_CPU_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: CPU: # 2023.01.29 23:52:18 (*) Starting Nios II generation
+Info: CPU: # 2023.01.29 23:52:18 (*)   Checking for plaintext license.
+Info: CPU: # 2023.01.29 23:52:19 (*)   Couldn't query license setup in Quartus directory H:/programs/quartus/13.0sp1/quartus
+Info: CPU: # 2023.01.29 23:52:19 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: CPU: # 2023.01.29 23:52:19 (*)   LM_LICENSE_FILE environment variable is empty
+Info: CPU: # 2023.01.29 23:52:19 (*)   Plaintext license not found.
+Info: CPU: # 2023.01.29 23:52:19 (*)   Checking for encrypted license (non-evaluation).
+Info: CPU: # 2023.01.29 23:52:19 (*)   Couldn't query license setup in Quartus directory H:/programs/quartus/13.0sp1/quartus
+Info: CPU: # 2023.01.29 23:52:19 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: CPU: # 2023.01.29 23:52:19 (*)   LM_LICENSE_FILE environment variable is empty
+Info: CPU: # 2023.01.29 23:52:19 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info: CPU: # 2023.01.29 23:52:19 (*)   Elaborating CPU configuration settings
+Info: CPU: # 2023.01.29 23:52:19 (*)   Creating all objects for CPU
+Info: CPU: # 2023.01.29 23:52:19 (*)     Testbench
+Info: CPU: # 2023.01.29 23:52:19 (*)     Instruction decoding
+Info: CPU: # 2023.01.29 23:52:19 (*)       Instruction fields
+Info: CPU: # 2023.01.29 23:52:19 (*)       Instruction decodes
+Info: CPU: # 2023.01.29 23:52:20 (*)       Signals for RTL simulation waveforms
+Info: CPU: # 2023.01.29 23:52:20 (*)       Instruction controls
+Info: CPU: # 2023.01.29 23:52:20 (*)     Pipeline frontend
+Info: CPU: # 2023.01.29 23:52:20 (*)     Pipeline backend
+Info: CPU: # 2023.01.29 23:52:22 (*)   Generating RTL from CPU objects
+Info: CPU: # 2023.01.29 23:52:24 (*)   Creating encrypted RTL
+Info: CPU: # 2023.01.29 23:52:25 (*) Done Nios II generation
+Info: CPU: Done RTL generation for module 'nios_system_CPU'
+Info: CPU: "nios_system" instantiated altera_nios2_qsys "CPU"
+Info: sysid: "nios_system" instantiated altera_avalon_sysid_qsys "sysid"
+Info: External_Clocks: Starting Generation of Required Clocks for DE-Series Boards
+Info: External_Clocks: "nios_system" instantiated altera_up_clocks "External_Clocks"
+Info: SD_Card: "nios_system" instantiated Altera_UP_SD_Card_Avalon_Interface "SD_Card"
+Info: Flash: "nios_system" instantiated Altera_UP_Flash_Memory_IP_Core_Avalon_Interface "Flash"
+Info: IrDA_UART: Starting Generation of RS232 UART
+Info: IrDA_UART: "nios_system" instantiated altera_up_avalon_irda "IrDA_UART"
+Warning: Overwriting different file H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system/synthesis/submodules/altera_up_sync_fifo.v
+Warning: Overwriting different file H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system/synthesis/submodules/altera_up_sync_fifo.v
+Info: Video_In: Starting Generation of Video In Decoder
+Info: Video_In: "nios_system" instantiated altera_up_avalon_video_decoder "Video_In"
+Info: Video_In_Chroma_Resampler: Starting Generation of Chroma Resampler
+Info: Video_In_Chroma_Resampler: "nios_system" instantiated altera_up_avalon_video_chroma_resampler "Video_In_Chroma_Resampler"
+Info: Video_In_CSC: Starting Generation of Colour Space Converter
+Info: Video_In_CSC: "nios_system" instantiated altera_up_avalon_video_csc "Video_In_CSC"
+Info: Video_In_RBG_Resampler: Starting Generation of Video RGB Resampler
+Info: Video_In_RBG_Resampler: "nios_system" instantiated altera_up_avalon_video_rgb_resampler "Video_In_RBG_Resampler"
+Info: Video_In_Clipper: Starting generation of the video clipper
+Info: Video_In_Clipper: "nios_system" instantiated altera_up_avalon_video_clipper "Video_In_Clipper"
+Info: Video_In_Scaler: Starting Generation of Video Scaler
+Info: Video_In_Scaler: "nios_system" instantiated altera_up_avalon_video_scaler "Video_In_Scaler"
+Info: Video_In_DMA_Controller: Starting Generation of Video DMA Controller
+Info: Video_In_DMA_Controller: "nios_system" instantiated altera_up_avalon_video_dma_controller "Video_In_DMA_Controller"
+Info: Ethernet: Starting Generation of Ethernet
+Info: Ethernet: "nios_system" instantiated altera_up_avalon_ethernet "Ethernet"
+Info: USB: Starting Generation of USB Controller
+Info: USB: "nios_system" instantiated altera_up_avalon_usb "USB"
+Info: video_test_pattern_0: Starting Generation of Test Pattern Generator
+Info: video_test_pattern_0: "nios_system" instantiated altera_up_avalon_video_test_pattern "video_test_pattern_0"
+Info: Rgb2Gray_AvalonStream_0: "nios_system" instantiated Rgb2Gray_AvalonStream "Rgb2Gray_AvalonStream_0"
+Info: SobelFilter_AvalonStream_0: "nios_system" instantiated SobelFilter_AvalonStream "SobelFilter_AvalonStream_0"
+Info: CPU_custom_instruction_master_translator: "nios_system" instantiated altera_customins_master_translator "CPU_custom_instruction_master_translator"
+Info: CPU_custom_instruction_master_multi_xconnect: "nios_system" instantiated altera_customins_xconnect "CPU_custom_instruction_master_multi_xconnect"
+Info: CPU_custom_instruction_master_multi_slave_translator0: "nios_system" instantiated altera_customins_slave_translator "CPU_custom_instruction_master_multi_slave_translator0"
+Info: CPU_instruction_master_translator: "nios_system" instantiated altera_merlin_master_translator "CPU_instruction_master_translator"
+Info: CPU_jtag_debug_module_translator: "nios_system" instantiated altera_merlin_slave_translator "CPU_jtag_debug_module_translator"
+Info: CPU_instruction_master_translator_avalon_universal_master_0_agent: "nios_system" instantiated altera_merlin_master_agent "CPU_instruction_master_translator_avalon_universal_master_0_agent"
+Info: CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent: "nios_system" instantiated altera_merlin_slave_agent "CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "nios_system" instantiated altera_avalon_sc_fifo "CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "nios_system" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "nios_system" instantiated altera_merlin_router "addr_router_001"
+Info: addr_router_002: "nios_system" instantiated altera_merlin_router "addr_router_002"
+Info: id_router: "nios_system" instantiated altera_merlin_router "id_router"
+Info: id_router_001: "nios_system" instantiated altera_merlin_router "id_router_001"
+Info: id_router_002: "nios_system" instantiated altera_merlin_router "id_router_002"
+Info: id_router_014: "nios_system" instantiated altera_merlin_router "id_router_014"
+Info: id_router_016: "nios_system" instantiated altera_merlin_router "id_router_016"
+Info: limiter: "nios_system" instantiated altera_merlin_traffic_limiter "limiter"
+Info: burst_adapter: "nios_system" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: rst_controller: "nios_system" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "nios_system" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "nios_system" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_demux_002: "nios_system" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_002"
+Info: cmd_xbar_mux: "nios_system" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: cmd_xbar_mux_001: "nios_system" instantiated altera_merlin_multiplexer "cmd_xbar_mux_001"
+Info: Reusing file H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_demux: "nios_system" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_001: "nios_system" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_001"
+Info: rsp_xbar_demux_002: "nios_system" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_002"
+Info: rsp_xbar_demux_014: "nios_system" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_014"
+Info: rsp_xbar_mux: "nios_system" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "nios_system" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "nios_system" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file H:/University/term7/FPGA/CA/2/Codes/avalon_streaming_interface/synthesis/without_edge_detection_ip_core/verilog/nios_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: irq_mapper: "nios_system" instantiated altera_irq_mapper "irq_mapper"
+Info: nios_system: Done nios_system" with 72 modules, 354 files, 6971479 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

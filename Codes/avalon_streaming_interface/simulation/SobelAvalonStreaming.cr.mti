@@ -1,0 +1,99 @@
+H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/Memory.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/Memory.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/Register.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/Register.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/Abs.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/Abs.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Abs
+
+Top level modules:
+	Abs
+
+} {} {}} H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/EdgeDetector_Kernel.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/EdgeDetector_Kernel.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module EdgeDetector_Kernel
+
+Top level modules:
+	EdgeDetector_Kernel
+
+} {} {}} H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/EdgeDetector.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/EdgeDetector.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module EdgeDetector
+
+Top level modules:
+	EdgeDetector
+
+} {} {}} H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/Rgb2Gray.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/Rgb2Gray.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Rgb2Gray
+
+Top level modules:
+	Rgb2Gray
+
+} {} {}} H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/AnyImage_tb.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/AnyImage_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module AnyImage_tb
+
+Top level modules:
+	AnyImage_tb
+
+} {} {}} H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/Mac.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/Mac.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Mac
+
+Top level modules:
+	Mac
+
+} {} {}} H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/EdgeDetector_Controller.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/EdgeDetector_Controller.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module EdgeDetector_Controller
+
+Top level modules:
+	EdgeDetector_Controller
+
+} {} {}} H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/EdgeDetector_MemImgAdrGen.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/EdgeDetector_MemImgAdrGen.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module EdgeDetector_MemImgAdrGen
+
+Top level modules:
+	EdgeDetector_MemImgAdrGen
+
+} {} {}} H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/Mux2.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/Mux2.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Mux2
+
+Top level modules:
+	Mux2
+
+} {} {}} H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/EdgeDetector_tb.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/EdgeDetector_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module EdgeDetector_tb
+
+Top level modules:
+	EdgeDetector_tb
+
+} {} {}} H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/EdgeDetector_Datapath.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/EdgeDetector_Datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module EdgeDetector_Datapath
+
+Top level modules:
+	EdgeDetector_Datapath
+
+} {} {}} H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/Counter.v {1 {vlog -work work H:/University/term7/FPGA/CA/2/AliPuneh/Edge_detection_without_IP/Counter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}}
